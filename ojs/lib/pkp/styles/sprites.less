@@ -1,0 +1,247 @@
+/**
+ * @file styles/sprites.less
+ *
+ * Copyright (c) 2003-2013 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ * 
+ * @ingroup pkp_sprites
+ *
+ * @brief Sprite classes
+ */
+
+a.sprite {
+	line-height: 24px;
+	
+	&.pkp_common_disabled:before {
+		cursor: default;
+	}
+	&:before {
+		content: " ";
+		display: inline-block;
+		vertical-align: middle;
+		width: 24px;
+		height: 24px;
+		background: url(../lib/pkp/templates/images/structure/sprites.png);
+		background-repeat: no-repeat;
+		cursor: pointer;
+	}
+
+	&.notify:before { margin-right:4px; background-position: -24px 0; }
+	&.notify:hover:before { background-position: -24px -24px; }
+
+	&.overdue {
+		text-indent: -1500px;
+		padding-left: 5px;
+	}
+
+	&.overdue:before { margin-right:4px; background-position: -48px 0; }
+	&.overdue:hover:before { background-position: -48px -24px; }
+
+	&.settings:before { background-position: -408px 0; }
+	&.settings:hover:before { background-position: -408px -24px; }
+
+	&.upgrade:before { background-position: -168px 0; }
+	&.upgrade:hover:before { background-position: -168px -24px; }
+
+	&.information:before { background-position: -194px 0; }
+	&.information:hover:before { background-position: -194px -24px; }
+
+	&.more_info:before { margin-right:4px; background-position: -456px 0; }
+	&.more_info:hover:before { background-position: -456px -24px; }
+
+	&.disable:before { background-position: -432px 0; }
+	&.disable:hover:before { background-position: -432px -24px; }
+
+	&.delete:before { background-position: -432px 0; }
+	&.delete:hover:before { background-position: -432px -24px; }
+
+	&.edit:before { background-position: -240px 0; }
+	&.edit:hover:before { background-position: -240px -24px; }
+
+	&.participants:before { background-position: -314px 0; }
+	&.participants:hover:before { background-position: -314px -24px; }
+
+	&.wrench:before { background-position: -338px 0; }
+	&.wrench:hover:before { background-position: -338px -24px; }
+
+	&.notes:before { background-position: -264px 0; }
+	&.notes:hover:before { background-position: -264px -24px; }
+
+	&.notes_new:before { background-position: -1224px 0; }
+	&.notes_new:hover:before { background-position: -1224px -24px; }
+
+	&.notes_none:before { background-position: -1200px 0; }
+	&.notes_none:hover:before { background-position: -1200px -24px; }
+
+	&.add:before { margin-right:4px; background-position: -504px 0; }
+	&.add:hover:before { background-position: -504px -24px; }
+
+	&.add_user:before { margin-right:4px; background-position: -528px 0; }
+	&.add_user:hover:before { background-position: -528px -24px; }
+
+	&.add_category:before { margin-right:4px; background-position: -552px 0; }
+	&.add_category:hover:before { background-position: -552px -24px; }
+
+	&.add_item:before { margin-right:4px; background-position: -576px 0; }
+	&.add_item:hover:before { background-position: -576px -24px; }
+
+	&.remove_item:before { background-position: -600px 0; margin-top: 8px; }
+	&.remove_item:hover:before { background-position: -600px -24px; margin-top: 8px; }
+
+	&.decline:before { margin-right:4px; background-position: -624px 0; }
+	&.decline:hover:before { background-position: -624px -24px; }
+
+	&.advance:before { margin-right:4px; background-position: -648px 0; }
+	&.advance:hover:before { background-position: -648px -24px; }
+
+	&.promote:before { margin-right:4px; background-position: -672px 0; }
+	&.promote:hover:before { background-position: -672px -24px; }
+
+	&.revisions:before { margin-right:4px; background-position: -696px 0; }
+	&.revisions:hover:before { background-position: -696px -24px; }
+
+	&.resubmit:before { margin-right:4px; background-position: -720px 0; }
+	&.resubmit:hover:before { background-position: -720px -24px; }
+
+	&.add_item_small:before { height: 14px; margin-right:4px; background-position: -744px -5px; }
+	&.add_item_small:hover:before { background-position: -744px -29px; }
+
+	&.enroll_user:before { margin-right:4px; background-position: -768px 0; }
+	&.enroll_user:hover:before { background-position: -768px -24px; }
+
+	&.user_search:before { margin-right:4px; background-position: -792px 0; }
+	&.user_search:hover:before { background-position: -792px -24px; }
+
+	&.import:before { margin-right:4px; background-position: -816px 0; }
+	&.import:hover:before { background-position: -816px -24px; }
+
+	&.pdf:before { margin-right:4px; background-position: -840px 0; }
+	&.pdf:hover:before { background-position: -840px -24px; }
+
+	&.html:before { margin-right:4px; background-position: -864px 0; }
+	&.html:hover:before { background-position: -864px -24px; }
+
+	&.word:before { margin-right:4px; background-position: -888px 0; }
+	&.word:hover:before { background-position: -888px -24px; }
+
+	&.image:before { margin-right:4px; background-position: -912px 0; }
+	&.image:hover:before { background-position: -912px -24px; }
+
+	&.excel:before { margin-right:4px; background-position: -936px 0; }
+	&.excel:hover:before { background-position: -936px -24px; }
+
+	&.default:before { margin-right:4px; background-position: -960px 0; }
+	&.default:hover:before { background-position: -960px -24px; }
+
+	&.zip:before { margin-right:4px; background-position: -984px 0; }
+	&.zip:hover:before { background-position: -984px -24px; }
+
+	&.warning:before { margin-right:4px; background-position: -1008px 0; }
+	&.warning:hover:before { background-position: -1008px -24px; }
+
+	&.add_role:before { margin-right:4px; background-position: -1032px 0; }
+	&.add_role:hover:before { background-position: -1032px -24px; }
+
+	&.star_highlighted:before { margin-right:4px; background-position: -1056px 0; }
+	&.star_highlighted:hover:before { background-position: -1056px -24px; }
+
+	&.star:before { margin-right:4px; background-position: -1080px 0; }
+	&.star:hover:before { background-position: -1080px -24px; }
+
+	&.cross:before { margin-right:4px; background-position: -1104px 0; }
+	&.cross:hover:before { background-position: -1104px -24px; }
+
+	&.feature:before { margin-right:4px; background-position: -1128px 0; }
+	&.feature:hover:before { background-position: -1128px -24px; }
+
+	&.list_view:before { margin-right:4px; background-position: -1152px 0; }
+	&.list_view:hover:before { background-position: -1152px -24px; }
+
+	&.grid_view:before { margin-right:4px; background-position: -1176px 0; }
+	&.grid_view:hover:before { background-position: -1176px -24px; }
+	
+	&.reset_default:before { margin-right:4px; background-position: -1248px 0; }
+	&.reset_default:hover:before { background-position: -1248px -24px; }
+	
+	&.send_production:before { margin-right:4px; background-position: -1272px 0; }
+	&.send_production:hover:before { background-position: -1272px -24px; }
+	
+	&.order_items:before { margin-right:4px; background-position: -1296px 0; }
+	&.order_items:hover:before { background-position: -1296px -24px; }
+	
+	&.return:before { margin-right:4px; background-position: -1320px 0; }
+	&.return:hover:before { background-position: -1320px -24px; }
+
+	&.release:before { margin-right:4px; background-position: -1368px 0; }
+	&.release:hover:before { background-position: -1368px -24px; }
+
+	&.release_highlighted:before { margin-right:4px; background-position: -1392px 0; } 
+	&.release_highlighted:hover:before { background-position: -1392px -24px; }
+	
+	&.collapse_all:before { margin-right:4px; background-position: -1416px 0; }
+	&.collapse_all:hover:before { background-position: -1416px -24px; }
+	
+	&.expand_all:before { margin-right:4px; background-position: -1440px 0; }
+	&.expand_all:hover:before { background-position: -1440px -24px; }
+	
+	&.expanded:before { margin-right:4px; background-position: -1464px 0; }
+	&.expanded:hover:before { background-position: -1464px -24px; }
+	
+	&.collapsed:before { margin-right:4px; background-position: -1488px 0; }
+	&.collapsed:hover:before { background-position: -1488px -24px; }
+
+	&.manage:before { margin-right:4px; background-position: -1512px 0; }
+	&.manage:hover:before { background-position: -1512px -24px; }
+
+	&.merge_users:before { margin-right:4px; background-position: -312px 0; }
+        &.merge_users:hover:before { background-position: -312px -24px; }
+	
+}
+
+/**
+ * Category sprites
+ */
+.category {
+	&.delete:before {
+		margin-left: 5px; background-position: -1008px 0;
+	}
+	&.delete:hover:before {
+		background-position: -1008px -24px;
+	}
+	&.pdf:before, &.html:before, &.word:before, &.image:before, &.excel:before, &.default:before, &.zip:before {
+		margin-left: 10px; margin-top: 0px;
+	}
+}
+
+/**
+ * Large sprites
+ */
+.large_sprite {
+	content: " ";
+	width: 48px;
+	height: 48px;
+	margin-right: 10px;
+	margin-left: 10px;
+	float: left;
+	background: url(../lib/pkp/templates/images/structure/sprites.png);
+	background-repeat: no-repeat;
+	background-position: 0 -48px;
+
+	&.modal_add_user { background-position: -48px -48px; }
+	&.modal_add_role { background-position: -96px -48px; }
+	&.modal_add_file { background-position: -144px -48px; }
+	&.modal_information { background-position: -288px -48px; }
+	&.modal_more_info { background-position: -240px -48px; }
+	&.modal_email { background-position: -336px -48px; }
+	&.modal_delete { background-position: -384px -48px; }
+	&.modal_approve_proofs { background-position: -432px -48px; }
+	&.modal_edit { background-position: -480px -48px; }
+	&.modal_confirm { background-position: -528px -48px; }
+	&.modal_add_item { background-position: -576px -48px; }
+	&.modal_manage { background-position: -624px -48px; }
+	&.modal_settings { background-position: -672px -48px; }
+	&.modal_warning { background-position: -720px -48px; }
+	&.modal_upgrade { background-position: -768px -48px; }
+	&.modal_merge_users { background-position: -816px -48px; }
+	&.modal_wizard { background-position: -1632px -48px; }
+}

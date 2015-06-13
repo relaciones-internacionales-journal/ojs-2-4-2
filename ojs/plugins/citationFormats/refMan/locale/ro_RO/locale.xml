@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/citationFormats/refMan/locale/ro_RO/locale.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for this citation plugin in ro_RO.
+  * KOSSON FECIT
+  -->
+ 
+<locale name="ro_RO" full_name="Română">
+	<message key="plugins.citationFormats.refMan.displayName">Modul pentru citarea în format Reference Manager</message>
+	<message key="plugins.citationFormats.refMan.citationFormatName">Reference Manager - format RIS (doar pentru Windows)</message>
+	<message key="plugins.citationFormats.refMan.description">Acest modul implementează formatul Reference Manager pentru citări.</message>
+</locale>

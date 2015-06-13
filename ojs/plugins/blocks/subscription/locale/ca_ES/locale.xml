@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd"> <!--
+  * locale.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the en_US (U.S. English) locale.
+  *
+  * $Id$
+  -->
+ 
+<locale name="en_US" full_name="U.S. English">
+	<message key="plugins.block.subscription.displayName">Bloc de subscripció</message>
+	<message key="plugins.block.subscription.description">Aquest connector proporciona informació sobre la subscripció a la barra lateral.</message>
+	<message key="plugins.block.subscription.blockTitle">Subscripció</message>
+	<message key="plugins.block.subscription.expires">Venciment</message>
+	<message key="plugins.block.subscription.providedBy">Accés proporcionat per</message>
+	<message key="plugins.block.subscription.comingFromIP">Des de</message>
+	<message key="plugins.block.subscription.about">Subscripcions</message>
+	<message key="plugins.block.subscription.loginToVerifySubscription">Inicieu la sessió per confirmar la subscripció</message>
+</locale> 

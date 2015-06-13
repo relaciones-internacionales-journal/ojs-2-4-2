@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "../../../../lib/pkp/dtd/helpTopic.dtd">
+<!--
+  * 000004.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Management Pages - Setup 
+  *
+  * $Id$
+  -->
+
+<topic id="journal/topic/000004" locale="es_ES" title="Configuración" toc="journal/toc/000001" key="journal.managementPages.setup">
+	<section>
+		<![CDATA[<p>Tras la instalación del sistema en un servidor web, el gestor/a establece la configuración de la revista mediante cinco pasos, rellena las plantillas necesarias y administra la gestión de la revista. La configuración del sistema se puede realizar progresivamente: las plantillas se pueden rellenar y guardar y el/la gestor/a de la revista puede retomar la configuración y finalizar la tarea o realizar modificaciones en cualquier momento.</p><p>El gestor/a dispone de la Configuración en la página de Gestión de la revista donde podrá encontrar además documentos de ayuda para cada una de las plantillas. Para la configuración de la página web de la revista será necesario tomar decisiones y aportar textos para los siguientes puntos, entre otros, que pueden ir preparándose de manera anticipada con el asesoramiento de los editores/as o añadirse más tarde.</p><ul><li>Contacto principal de la revista</li><li>Contacto técnico</li><li>Declaración de alcance y enfoque de la revista</li><li>Secciones de la revista y políticas</li><li>Directrices para autores</li><li>Requisitos de entrega para autores</li><li>Indexación de elementos y ejemplos adecuados</li><li>Política de evaluación por pares</li><li>Indicaciones para el revisor</li><li>Política de derechos de autor</li><li>Política de acceso abierto</li><li>Consejo editorial/Consejo de revisión</li><li>Política de suscripción</li><li>Uso de maquestistas, correctores/as de originales o correctores/as de pruebas</li></ul>]]>
+	</section>
+</topic>

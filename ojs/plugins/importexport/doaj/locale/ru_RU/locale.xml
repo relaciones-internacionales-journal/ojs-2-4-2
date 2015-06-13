@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/importexport/doaj/locale/ru_RU/locale.xml
+  *
+  * Copyright (c) 2013-2014 Simon Fraser University Library
+  * Copyright (c) 2003-2014 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the ru_RU (Russian) locale.
+  * With updates from Pavel Pisklakov (revising translation). 
+  -->
+ 
+<locale name="ru_RU" full_name="Russian">
+	<message key="plugins.importexport.doaj.displayName">Плагин «Экспорт в DOAJ»</message>
+	<message key="plugins.importexport.doaj.description">Этот плагин позволяет экспортировать журнал для DOAJ и предоставить информацию о журнале для добавления в DOAJ</message>
+
+	
+	<message key="plugins.importexport.doaj.export">Экспортировать данные журнала в DOAJ</message>
+	<message key="plugins.importexport.doaj.export.journal">Экспортировать журнал</message>
+	<message key="plugins.importexport.doaj.export.contact">Связаться с DOAJ для добавления журнала</message>
+	<message key="plugins.importexport.doaj.export.journalInfo">Экспортировать информацию статьи в XML для архивации в DOAJ</message>
+	<message key="plugins.importexport.doaj.export.contactInfo">Для рассмотрения вашего журнала в DOAJ, пожалуйста, отправьте в DOAJ эту форму, частично заполненную автоматически, и заполните остальную информацию в форме подробно настолько, насколько это возможно.</message>
+
+</locale>

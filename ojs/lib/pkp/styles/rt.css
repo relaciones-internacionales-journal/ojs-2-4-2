@@ -1,0 +1,65 @@
+/**
+ * rt.css
+ *
+ * Copyright (c) 2000-2013 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * Stylesheet for reading tools
+ * DEPRECATED. Do not modify.
+ *
+ */
+
+/**
+ * Misc
+ */
+
+a {text-decoration: none;font-size:11px;}
+a:link {color: #444;}
+a:active {color: #444;}
+a:visited {color: #444;}
+a:hover {color: #717171;text-decoration:none;background: none;}
+p {font-family: 'Open Sans',Arial,Helvetica,sans-serif; font-size:12px;}
+hr {width:75%;}
+div.separator {border-top: 1px solid #e8e8e8;border-bottom:none;} 
+
+#body {width: 100%; margin:0 auto;padding:0;font-family: 'Open Sans',Arial,Helvetica,sans-serif; font-size:12px;}
+#container {width: 100%!important; margin:0;padding:0; min-width:480px!important;}
+
+#header {float:left;width:100%;	background-color: #1a1a1a;   margin:0 0 20px 0;  padding: 10px 0 10px 0;}
+#header_container{margin: 0  0 0 20px;background-color: #1a1a1a;}
+#headerTitle {width: 100%;}
+.headerTitle {width:40%;margin:-10px 0 0 -10px;padding-left:40px;background:url("../../../templates/images/logo_revista_57x50.png") no-repeat 0 18px;}
+#header h1 a{font-family: 'Crimson Text', serif;font-size:28px;text-transform:uppercase;line-height:25px;color:#fff;}
+#header h1 a:hover {text-decoration:none;}
+
+#sidebar {float: right;width: 20%;padding: 1em 0em 1em 0em;	font-size: 0.65em;height: 100%;	margin-right: 8%;}
+
+#main {width: 99%; float:left;}
+#main h2 {padding:10px;background: #e8e8e8; font-family: 'Roboto Condensed',Arial,Helvetica,sans-serif;font-size:18px; font-weight:bold; text-transform:uppercase;}
+#main h3 {margin-left:-20px;padding:10px;background: #e8e8e8; font-size:14px; font-family: 'Open Sans',Arial,Helvetica,sans-serif;  font-weight:bold; border:none; margin-bottom:20px;}
+
+#content{ border:none; padding-left:20px; text-align:left;}
+#content p {text-align:left;}
+#content ul {font-size:11px; list-style-type:square;}
+#content a.link_general {font-size:11px;padding-left:20px; margin:5px 0 5px 10px;background: url("../../../templates/images/style_dark/link16.png") no-repeat 0 0;}
+#content a.crear_general {font-size:11px;padding-left:20px; margin:5px 0 5px 10px;background: url("../../../templates/images/style_dark/add16.png") no-repeat 0 0;}
+#content a.link_general:hover, #content a.crear_general:hover {text-decoration:none;}
+
+table.listing {width:99%;}
+table.listing,table.listing  p, #citation {font-size:11px;}
+table.listing > tbody > tr > td.headseparator {border-top:1px solid #e8e8e8;}
+table.listing > tbody > tr > td.heading {border:none;font-weight:bold; text-align:left;}
+table.listing > tbody > tr > td.separator {border-top:1px dotted #e8e8e8;}
+table.data_alt label ,
+table.data_alt > tbody > tr > td.label{color:#333; text-shadow:none;}
+table.data_alt tr {}
+table.data_alt td {padding-bottom: 0.25em;background:none; }
+table.data_alt td.label {padding-right: 1em;vertical-align: top;}
+table.data_alt td.value {vertical-align: top;}
+table.listing > tbody > tr > td.endseparator,
+table.data_alt > tbody > tr > .tdendseparator {border:none;}
+table.data_alt td.heading {padding-left: 0;padding-right: 0;font-weight:bold; text-align:left;}
+
+#footerContent {width: 100%;}
+
+

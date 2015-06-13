@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE toc SYSTEM "../../../../lib/pkp/dtd/helpToc.dtd"> <!--
+  * 000011.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * table of contents for Editorial Process - Author's Role - Editing
+  *
+  * $Id$
+  -->
+
+<toc id="editorial/toc/000011" locale="ca_ES" title="Edició" parent_topic="editorial/topic/000011">
+	<topic id="editorial/topic/000035" title="Correcció d'originals" />
+	<topic id="editorial/topic/000036" title="Correcció de proves" />
+
+	<breadcrumb url="editorial/topic/000000" title="Procés editorial" />
+	<breadcrumb url="editorial/topic/000009" title="Rol d'autor/a" />
+	<breadcrumb url="editorial/topic/000011" title="Edició" />
+</toc> 

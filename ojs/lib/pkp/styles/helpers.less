@@ -1,0 +1,139 @@
+/**
+ * @file styles/helpers.less
+ *
+ * Copyright (c) 2003-2013 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ * 
+ * @brief Helper classes
+ *
+ */
+
+.pkp_helpers_invisible {
+	visibility: hidden;
+}
+
+.pkp_helpers_display_none {
+	display: none !important;
+}
+
+.pkp_helpers_clear {
+	clear: both;
+}
+
+.pkp_helpers_align_left {
+	float: left;
+}
+
+.pkp_helpers_align_right {
+	float: right;
+}
+
+.pkp_helpers_text_left {
+	text-align: left;
+}
+
+.pkp_helpers_text_right {
+	text-align: right;
+}
+
+.pkp_helpers_text_center {
+	text-align: center;
+}
+
+.pkp_helpers_text_justify {
+	text-align: justify;
+}
+
+.pkp_helpers_image_left {
+	float: left;
+	margin: 4px 10px 4px 0;
+}
+
+.pkp_helpers_image_right {
+	float: right;
+	margin: 4px 0 4px 10px;
+}
+
+.pkp_helpers_container_center {
+	margin: 0 auto;
+}
+
+.pkp_helpers_debug, .pkp_helpers_debug div {
+	border: 1px dashed red;
+	padding: 2px;
+}
+
+.pkp_helpers_flatlist {
+	margin: 0;
+	padding: 0;
+
+	li {
+		float: left;
+		position: relative;
+	}
+}
+
+.pkp_helpers_bulletlist {
+	li {
+		list-style: disc;
+	}
+}
+
+.pkp_helpers_icon_link_valign {
+	line-height:24px;
+}
+
+.pkp_helpers_moveicon {
+	cursor: move;
+}
+
+.pkp_helpers_full {
+	width: 100%;
+}
+
+.pkp_helpers_half {
+	width: 48%;
+}
+
+.pkp_helpers_third {
+	width: 31%;
+}
+
+.pkp_helpers_quarter {
+	width: 23%;
+}
+
+.pkp_helpers_threeQuarter {
+	width: 73%;
+}
+
+.pkp_helpers_underline:after {
+	border-bottom: 2px solid white;
+	content: " ";
+	display: block;
+}
+
+.pkp_helpers_dotted_underline {
+	border-bottom: 1px dotted #999;
+}
+
+.pkp_help {
+	color:#999999;
+	font-weight:normal;
+	font-size:80%;
+	padding:10px;
+}
+
+.pkp_helpers_black_bg {
+	background-color: black;
+}
+
+div.pkp_helpers_progressIndicator {
+	width:24px;
+	height:24px;
+	float:right;
+	margin-right: 5px;
+	background-repeat:no-repeat;
+	background:url(../lib/pkp/templates/images/throbber.gif) no-repeat;
+	display: none;
+}

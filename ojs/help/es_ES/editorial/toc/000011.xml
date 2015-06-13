@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE toc SYSTEM "../../../../lib/pkp/dtd/helpToc.dtd">
+
+<!--
+  * 000011.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  *Tabla de contenido para el proceso editorial  - Rol del autor/a - Edición
+  *
+  * $Id$
+  -->
+
+<toc id="editorial/toc/000011" locale="es_ES" title="Edición" parent_topic="editorial/topic/000011">
+	<topic id="editorial/topic/000035" title="Corrección de originales" />
+	<topic id="editorial/topic/000036" title="Corrección de pruebas" />
+
+	<breadcrumb url="editorial/topic/000000" title="Proceso editorial" />
+	<breadcrumb url="editorial/topic/000009" title="Rol del autor/a" />
+	<breadcrumb url="editorial/topic/000011" title="Edición" />
+</toc>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "../../../../lib/pkp/dtd/helpTopic.dtd">
+<!--
+  * 000017.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Editor's Role Submissions - In Editing 
+  *
+  * $Id$
+  -->
+
+<topic id="editorial/topic/000017" locale="es_ES" title="En edición" toc="editorial/toc/000002" key="editorial.editorsRole.submissions.inEditing">
+	<section>
+		<![CDATA[<p>Los envíos de esta cola están en proceso de revisión, maquetación y corrección. Cuando un editor/a de sección o un editor/a hace clic en el título de un envío de la cola de edición, éste se abre en la página de edición de envíos.</p>]]>	
+	</section>
+</topic>

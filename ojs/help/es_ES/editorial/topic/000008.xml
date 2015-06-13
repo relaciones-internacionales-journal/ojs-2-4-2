@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "../../../../lib/pkp/dtd/helpTopic.dtd">
+<!--
+  * 000008.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Reviewer's Role Index 
+  *
+  * $Id$
+  -->
+
+<topic id="editorial/topic/000008" locale="es_ES" title="Rol del revisor/a" toc="editorial/toc/000000" subtoc="editorial/toc/000008" key="editorial.reviewersRole">
+	<section>
+		<![CDATA[<p>Se propone al revisor/a que revise un envío mediante un correo electrónico que incluye el título y el resumen del artículo. Además también se le facilita la dirección URL de la revista y el nombre de usuario/a y la contraseña para que pueda acceder a ella. La revista tiene la opción de enviar un correo electrónico al revisor/a dónde se incluyen el archivo y la solicitud de revisión. En este caso, el revisor/a contesta por correo electrónico. Aquí se describe el método principal de revisión y de garantía de un registro completo del proceso, lo que conlleva que el revisor/a realice la revisión en el sitio web de la revista.</p>]]>	
+	</section>
+</topic>

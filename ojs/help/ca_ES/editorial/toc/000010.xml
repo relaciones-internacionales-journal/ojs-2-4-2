@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE toc SYSTEM "../../../../lib/pkp/dtd/helpToc.dtd"> <!--
+  * 000010.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * table of contents for Editorial Process - Author's Role - Review
+  *
+  * $Id$
+  -->
+
+<toc id="editorial/toc/000010" locale="ca_ES" title="Revisió" parent_topic="editorial/topic/000010">
+	<topic id="editorial/topic/000033" title="Avaluació d’experts" />
+	<topic id="editorial/topic/000034" title="Decisió de l’editor/a" />
+
+	<breadcrumb url="editorial/topic/000000" title="Procés editorial" />
+	<breadcrumb url="editorial/topic/000009" title="Rol d'autor/a" />
+	<breadcrumb url="editorial/topic/000010" title="Revisió" />
+</toc> 

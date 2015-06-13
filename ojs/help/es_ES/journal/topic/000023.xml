@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "../../../../lib/pkp/dtd/helpTopic.dtd">
+<!--
+  * 000023.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Roles - Reader 
+  *
+  * $Id$
+  -->
+
+<topic id="journal/topic/000023" locale="es_ES" title="Lector/a" toc="journal/toc/000003" key="journal.roles.reader">
+	<section>
+		<![CDATA[<p>Los lectores/as pueden ser de dos tipos: miembros de revistas que requiren suscripción y miembros que deciden registrarse en una revista de acceso abierto (bien sea de acceso abierto inmediato o libres pasado un tiempo tras la publicación del contenido en la revista). Los lectores/as registrados reciben un aviso por correo electrónico con la publicación de cada número, el cual incluye la Tabla de contenidos para ese número en particular. Al registrarse en la revista, los autores/as tienen la posibilidad de registrarse también como lectores/as.</p><p>Haga clic {help_topic key="user.registerAndProfile" text="aquí"} para saber más.</p> ]]>	
+	</section>
+</topic>

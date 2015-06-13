@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "../../../../lib/pkp/dtd/helpTopic.dtd">
+<!--
+  * 000026.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Management Pages - Reading Tools - Settings
+  *
+  * $Id$
+  -->
+
+<topic id="journal/topic/000026" locale="es_ES" title="Opciones de las herramientas de lectura" toc="journal/toc/000005" key="journal.managementPages.readingTools.settings">
+	<section>
+		<![CDATA[<p>El gestor/a de la revista puede seleccionar uno o todos los enlaces genéricos y opcionales que deben aparecer como parte del conjunto de herramientas, en un recuadro a la derecha de todos los elementos de las secciones indexadas (ej. Artículos y no en Avisos de conferencias). El gestor/a de la revista también puede seleccionar herramientas de lectura para una disciplina o para un conjunto de áreas que se mostrará como Elementos relacionados. El gestor/a puede buscar, editar, eliminar o añadir herramientas en cada uno de los conjuntos de Elementos relacionados, dentro de Conjuntos de elementos, en el apartado Herramientas de lectura.</p><p>El mismo conjunto de herramientas de lectura aparece junto a cada elemento en las secciones indexadas de la revista. Sin embargo, las Herramientas de lectura utilizan los términos de indexación que ha proporcionado el autor para asegurar que el material que se encuentra en las bases de datos de las que dispone la revista es relevante. El gestor/a de la revista puede modificar en cualquier momento las Herramientas de lectura seleccionadas con anterioridad.]]>
+	</section>
+</topic>

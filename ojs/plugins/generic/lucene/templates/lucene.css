@@ -1,0 +1,32 @@
+/**
+ * plugins/generic/lucene/templates/lucene.css
+ *
+ * Copyright (c) 2003-2013 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * Special stylesheet for Lucene search result formatting.
+ */
+
+.plugins_generic_lucene_preResults {
+	width: 100%;
+	margin: 0 0 0.5em 0.5em;
+	line-height: 2em;
+}
+
+.plugins_generic_lucene_preResults_ordering {
+	float: right;
+}
+
+tr.plugins_generic_lucene_highlighting td {
+	padding-left: 30px;
+}
+
+.plugins_generic_lucene_highlighting em {
+	font-style: normal;
+	font-weight: bold;
+}
+
+.plugins_generic_lucene_facets .pkp_controllers_extrasOnDemand .toggleExtras {
+	margin-top: 5px;
+	margin-bottom: 0;
+}

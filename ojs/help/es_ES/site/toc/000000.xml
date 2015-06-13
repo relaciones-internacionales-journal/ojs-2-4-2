@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE toc SYSTEM "../../../../lib/pkp/dtd/helpToc.dtd">
+<!--
+  * 000000.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * table of contents for Site Administration. 
+  *
+  * $Id$
+  -->
+
+<toc id="site/toc/000000" locale="es_ES" title="Administración del sitio" parent_topic="site/topic/000000">
+	<topic id="site/topic/000001" title="Instalación" />
+	<topic id="site/topic/000002" title="Gestión del sitio" />
+	<topic id="site/topic/000003" title="Funciones administrativas" />
+	<breadcrumb url="site/topic/000000" title="Administración del sitio" />
+</toc>

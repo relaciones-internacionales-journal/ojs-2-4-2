@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "../../../../lib/pkp/dtd/helpTopic.dtd">
+<!--
+  * 000028.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Section Editor's Role Index - Editing - Layout
+  *
+  * $Id$
+  -->
+
+<topic id="editorial/topic/000028" locale="es_ES" title="Maquetación" toc="editorial/toc/000007" key="editorial.sectionEditorsRole.editing.layout">
+	<section>
+		<![CDATA[<p>Una vez que el corrector/a de originales haya generado la versión limpia del documento del envío (paso 3 del proceso de corrección de originales), dicha versión sigue a la fase de maquetación. Después de recibir la notificación de que el proceso de corrección de originales ha finalizado, el editor/a de sección elige un maquetista, si esta decisión no se ha tomado previamente, y solicita que comience su trabajo por medio de un correo electrónico (icono bajo Solicitar maquetación). El maquetista prepara las galeradas en cada uno de los formatos de publicación de la revista (p. ej., HTML, PDF, PS, etc.). Además, el maquetista y el corrector/a de pruebas revisan los archivos adicionales, que tienen el formato original en el que se enviaron, con el fin de asegurar que el formato básico es correcto y que los archivos se ajustan al máximo a los estándares de la revista. Cuando el maquetista ha finalizado las galeradas iniciales, es decir, los archivos que se publicarán en línea, envía un correo electrónico al editor/a de sección.</p><p>Tenga en cuenta que el editor/a puede planificar la publicación del documento en cualquier fase del proceso de edición. Esta información se pondrá a disposición de los maquetistas y de los correctores/as de pruebas para que puedan tener una vista previa del número antes de su publicación.</p>]]>	
+	</section>
+</topic>

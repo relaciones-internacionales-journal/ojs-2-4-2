@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd"> <!--
+  * locale.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the es_ES (España) locale.
+  *
+  * $Id$
+  -->
+ 
+<locale name="es_ES" full_name="Español (España)">
+	<message key="plugins.generic.tinymce.name">Conector TinyMCE</message>
+	<message key="plugins.generic.tinymce.description"><![CDATA[Este conector habilita la edición WYSIWYG («lo que ve es lo que obtiene») de áreas de texto del OJS mediante el uso del editor de contenido <a href="http://tinymce.moxiecode.com" target="_new">TinyMCE</a>.]]></message>
+	<message key="plugins.generic.tinymce.descriptionDisabled"><![CDATA[Este conector habilita la edición WYSIWYG («lo que ve es lo que obtiene») de áreas de texto del OJS mediante el uso del editor de contenido <a href="http://tinymce.moxiecode.com" target="_new">TinyMCE</a> <strong>TinyMCE no está instalado actualmente. Si lo desea, puede instalarlo en {$tinyMcePath}.</strong>]]></message>
+	<message key="plugins.generic.tinymce.settings">Configuración</message>
+</locale> 

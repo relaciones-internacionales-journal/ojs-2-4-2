@@ -1,0 +1,168 @@
+﻿Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /ojs
+#RewriteRule ^oai - [L,NC]
+#RewriteRule ^oai\.html$ oai [NC]
+RewriteRule ^oai\.html$ /ojs/oai 
+RewriteRule ^oai$ /ojs/index.php?journal=Relaciones_Internacionales&page=oai [QSA,L]
+
+# ------------------------------------------------------------------------------
+# | Expires headers                                                            |
+# ------------------------------------------------------------------------------
+
+# The following expires headers are set pretty far in the future. If you
+# don't control versioning with filename-based cache busting, consider
+# lowering the cache time for resources such as style sheets and JavaScript
+# files to something like one week.
+
+<IfModule mod_expires.c>
+
+    ExpiresActive on
+    ExpiresDefault                                      "access plus 1 month"
+
+  # CSS
+    ExpiresByType text/css                              "access plus 1 week"
+
+  # Data interchange
+    ExpiresByType application/json                      "access plus 0 seconds"
+    ExpiresByType application/ld+json                   "access plus 0 seconds"
+    ExpiresByType application/xml                       "access plus 0 seconds"
+    ExpiresByType text/xml                              "access plus 0 seconds"
+
+  # Favicon (cannot be renamed!) and cursor images
+    ExpiresByType image/x-icon                          "access plus 1 week"
+
+  # HTML components (HTCs)
+    ExpiresByType text/x-component                      "access plus 1 month"
+
+  # HTML
+    ExpiresByType text/html                             "access plus 0 seconds"
+
+  # JavaScript
+    ExpiresByType application/javascript                "access plus 1 week"
+
+  # Manifest files
+    ExpiresByType application/x-web-app-manifest+json   "access plus 0 seconds"
+    ExpiresByType text/cache-manifest                   "access plus 0 seconds"
+
+  # Media
+    ExpiresByType audio/ogg                             "access plus 1 month"
+    ExpiresByType image/gif                             "access plus 1 month"
+    ExpiresByType image/jpeg                            "access plus 1 month"
+    ExpiresByType image/png                             "access plus 1 month"
+    ExpiresByType video/mp4                             "access plus 1 month"
+    ExpiresByType video/ogg                             "access plus 1 month"
+    ExpiresByType video/webm                            "access plus 1 month"
+
+  # Web feeds
+    ExpiresByType application/atom+xml                  "access plus 1 hour"
+    ExpiresByType application/rss+xml                   "access plus 1 hour"
+
+  # Web fonts
+    ExpiresByType application/font-woff                 "access plus 1 month"
+    ExpiresByType application/vnd.ms-fontobject         "access plus 1 month"
+    ExpiresByType application/x-font-ttf                "access plus 1 month"
+    ExpiresByType font/opentype                         "access plus 1 month"
+    ExpiresByType image/svg+xml                         "access plus 1 month"
+
+</IfModule>
+
+# ------------------------------------------------------------------------------
+# | Compression                                                                |
+# ------------------------------------------------------------------------------
+
+<IfModule mod_deflate.c>
+
+    # Force compression for mangled headers.
+    # http://developer.yahoo.com/blogs/ydn/posts/2010/12/pushing-beyond-gzipping
+    <IfModule mod_setenvif.c>
+        <IfModule mod_headers.c>
+            SetEnvIfNoCase ^(Accept-EncodXng|X-cept-Encoding|X{15}|~{15}|-{15})$ ^((gzip|deflate)\s*,?\s*)+|[X~-]{4,13}$ HAVE_Accept-Encoding
+            RequestHeader append Accept-Encoding "gzip,deflate" env=HAVE_Accept-Encoding
+        </IfModule>
+    </IfModule>
+
+    # Compress all output labeled with one of the following MIME-types
+    # (for Apache versions below 2.3.7, you don't need to enable `mod_filter`
+    #  and can remove the `<IfModule mod_filter.c>` and `</IfModule>` lines
+    #  as `AddOutputFilterByType` is still in the core directives).
+    <IfModule mod_filter.c>
+        AddOutputFilterByType DEFLATE application/atom+xml \
+                                      application/javascript \
+                                      application/json \
+                                      application/ld+json \
+                                      application/rss+xml \
+                                      application/vnd.ms-fontobject \
+                                      application/x-font-ttf \
+                                      application/x-web-app-manifest+json \
+                                      application/xhtml+xml \
+                                      application/xml \
+                                      font/opentype \
+                                      image/svg+xml \
+                                      image/x-icon \
+                                      text/css \
+                                      text/html \
+                                      text/plain \
+                                      text/x-component \
+                                      text/xml
+    </IfModule>
+
+</IfModule>
+
+# Do not rewrite anything that starts with index/
+#RewriteRule ^admin(.*)$ ojs/index.php/index/admin$1 [L]
+
+#PDFS
+RewriteCond %{THE_REQUEST} /ojs/index\.php\?
+RewriteCond %{REQUEST_METHOD} !POST$
+RewriteCond %{QUERY_STRING} ^journal=(\w+)&page=article&op=download&path\%5B\%5D=(\w+)&path\%5B\%5D=(\w+)$ [NC]
+RewriteRule (.*) http://www.relacionesinternacionales.info/ojs/%2/article/download/%3/%4.pdf [QSA,R=301]
+
+#RewriteCond %{REQUEST_METHOD} !POST$
+#RewriteRule ^article/viewFile/([^/]*)/([^/]*)\.html$ /ojs/article/view/$1/$2.html [R=301]
+RewriteCond %{REQUEST_METHOD} !POST$
+RewriteRule ^article/download/([^/]*)/([^/]*)\.html$ /ojs/article/download/$1/$2.pdf [QSA,L,R=301]
+RewriteCond %{REQUEST_METHOD} !POST$
+RewriteRule ^article/download/([^/]*)/([^/]*)\.pdf$ /ojs/index.php?journal=Relaciones_Internacionales&page=article&op=download&path[]=$1&path[]=$2 [QSA,L]
+
+#1. PAGINAS TERCER NIVEL
+RewriteCond %{THE_REQUEST} /ojs/index\.php\?
+RewriteCond %{REQUEST_METHOD} !POST$
+RewriteCond %{QUERY_STRING} ^journal=(\w+)&page=(\w+)&op=(\w+)&path\[]=(\w+)&path\[]=(\w+)$ [OR]
+RewriteCond %{QUERY_STRING} ^journal=(\w+)&page=(\w+)&op=(\w+)&path\%5B\%5D=(\w+)&path\%5B\%5D=(\w+)$ [NC]
+RewriteRule (.*) http://www.relacionesinternacionales.info/ojs/%2/%3/%4/%5.html [QSA,L,R=301]
+
+#2. ABSTRACTS Y NUMEROS
+RewriteCond %{THE_REQUEST} /ojs/index\.php\?
+RewriteCond %{REQUEST_METHOD} !POST$
+RewriteCond %{QUERY_STRING} ^journal=(\w+)&page=(\w+)&op=(\w+)&path\[]=(\w+)$ [OR]
+RewriteCond %{QUERY_STRING} ^journal=(\w+)&page=(\w+)&op=(\w+)&path\%5B\%5D=(\w+)$ [OR]
+RewriteCond %{QUERY_STRING} ^journal=(\w+)&page=(\w+)&op=(\w+)&subject=(\w+) [NC]
+RewriteRule (.*) http://www.relacionesinternacionales.info/ojs/%2/%3/%4.html [QSA,L,R=301]
+
+#3. PAGINAS SEGUNDO NIVEL
+RewriteCond %{THE_REQUEST} /ojs/index\.php\?
+RewriteCond %{REQUEST_METHOD} !POST$
+RewriteCond %{QUERY_STRING} journal=(\w+)&page=(\w+)&op=(\w+)$ [NC]
+RewriteRule (.*) http://www.relacionesinternacionales.info/ojs/%2/%3.html [QSA,L,R=301]
+
+#4. PAGINAS PRIMER NIVEL
+RewriteCond %{THE_REQUEST} /ojs/index\.php\?
+RewriteCond %{REQUEST_METHOD} !POST$
+RewriteCond %{QUERY_STRING} journal=(\w+)&page=(\w+)$ [NC]
+RewriteRule (.*) http://www.relacionesinternacionales.info/ojs/%2.html [QSA,L,R=301]
+
+#5. PREESCRITURA GENERAL
+#RewriteRule ^index/([^/]*)\.html$ /ojs/index.php?journal=index&page=$1 [QSA,L]
+RewriteCond %{REQUEST_METHOD} !POST$
+RewriteRule ^index/([^/]*)/([^/]*)\.html$ /ojs/index.php?journal=index&page=$1&op=$2 [QSA,L]
+RewriteCond %{REQUEST_METHOD} !POST$
+RewriteRule ^search/advancedResults/([^/]*)\.html$ /ojs/index.php?journal=Relaciones_Internacionales&page=search&op=advancedResults&subject=$1 [QSA,L]
+RewriteCond %{REQUEST_METHOD} !POST$
+RewriteRule ^([^/]*)/([^/]*)/([^/]*)/([^/]*)\.html$ /ojs/index.php?journal=Relaciones_Internacionales&page=$1&op=$2&path[]=$3&path[]=$4 [QSA,L]
+RewriteCond %{REQUEST_METHOD} !POST$
+RewriteRule ^([^/]*)/([^/]*)/([^/]*)\.html$ /ojs/index.php?journal=Relaciones_Internacionales&page=$1&op=$2&path[]=$3 [QSA,L]
+RewriteCond %{REQUEST_METHOD} !POST$
+RewriteRule ^([^/]*)/([^/]*)\.html$ /ojs/index.php?journal=Relaciones_Internacionales&page=$1&op=$2 [QSA,L]
+RewriteCond %{REQUEST_METHOD} !POST$
+RewriteRule ^([^/]*)\.html$ /ojs/index.php?journal=Relaciones_Internacionales&page=$1 [QSA,L]

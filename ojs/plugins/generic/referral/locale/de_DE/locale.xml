@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/generic/referral/locale/de_DE/locale.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the de_DE (Deutsch (Deutschland)) locale.
+  -->
+ 
+<locale name="de_DE" full_name="Deutsch (Deutschland)">
+	<message key="plugins.generic.referral.name">Verweise-Plug-In</message>
+	<message key="plugins.generic.referral.description">Das Verweise-Plug-In verfolgt eingehende Refback-URLs zu Artikeln (z.B. wenn ein/e Leser/in einem externen Link zu einem Artikel folgt), so dass Autor/innen eine automatisch aktualisierte Liste von Verweise auf einen Artikel pflegen und ggf. veröffentlichen können.</message>
+	
+	<message key="plugins.generic.referral.editReferral">Refback bearbeiten</message>
+	<message key="plugins.generic.referral.createReferral">Refback anlegen</message>
+	<message key="plugins.generic.referral.referrals">Refbacks</message>
+	<message key="plugins.generic.referral.count">Hits</message>
+	<message key="plugins.generic.referral.dateAdded">Hinzugefügt</message>
+	<message key="plugins.generic.referral.all">Alle</message>
+	<message key="plugins.generic.referral.all.empty">Im Moment gibt es keine Refbacks</message>
+	<message key="plugins.generic.referral.status.new">Neue</message>
+	<message key="plugins.generic.referral.status.new.empty">Im Moment gibt es keine neuen Refbacks</message>
+	<message key="plugins.generic.referral.status.accepted">Veröffentlicht</message>
+	<message key="plugins.generic.referral.status.accept">Veröffentlichen</message>
+	<message key="plugins.generic.referral.status.accept.confirm">Sind Sie sicher, dass Sie die ausgewählten Refbacks veröffentlichen wollen??</message>
+	<message key="plugins.generic.referral.status.accept.empty">Im Moment gibt es keine veröffentlichten Refbacks.</message>
+	<message key="plugins.generic.referral.status.decline">Ignorieren</message>
+	<message key="plugins.generic.referral.status.declined">Ignoriert</message>
+	<message key="plugins.generic.referral.status.decline.confirm">Sind Sie sicher, dass Sie die ausgewählten Refbacks ignorieren möchten?</message>
+	<message key="plugins.generic.referral.status.decline.empty">Im Moment gibt es keine ignorierten Refbacks.</message>
+	<message key="plugins.generic.referral.confirmDelete">Sind Sie sicher, dass Sie die ausgewählten Refbacks löschen möchten?</message>
+	<message key="plugins.generic.referral.nameRequired">Sie müssen einen Namen für den Refback angeben.</message>
+	<message key="plugins.generic.referral.urlRequired">Sie müssen einen URL für den Refback angeben.</message>
+	<message key="plugins.generic.referral.settings">Einstellungen des Verweise-Plug-Ins</message>
+	<message key="plugins.generic.referral.settings.description">Das Verweise-Plug-In erfasst URL, die auf in dieser Zeitschrift veröffentlichte Artikel verweisen, so dass sie durch den/die Autor/in aufbereitet und ggf. veröffentlicht werden können. Dieses Formular erlaubt der/dem Zeitschriftenverwalter/in die Kontrolle darüber, wie diese Verweise erfasst werden sollen.</message>
+	<message key="plugins.generic.referral.excusions">Ausschlüsse</message>
+	<message key="plugins.generic.referral.exclusions.description"><![CDATA[Geben Sie eine Liste regulärer Ausdrücke (einen pro Zeile) ein, die Ausschlüsse vom Protokollieren der Verweise bezeichnen. Dies kann benutzt werden, um zu verhindern, dass Suchmaschinenzugriffe die Liste eingehender Verweise überfrachten. Nähere Informationen über reguläre Ausdrücke finden Sie unter <a href="http://ca.php.net/manual/en/ref.pcre.php" target="_new">http://ca.php.net/manual/en/ref.pcre.php</a>.]]></message>
+</locale>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2003-2009 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the en_US (U.S. English) locale.
+  *
+  * $Id: locale.xml,v 1.4 2009/04/08 19:54:39 asmecher Exp $
+  -->
+ 
+<locale name="en_US" full_name="U.S. English">
+	<message key="plugins.gateways.iPhoneGateway.displayName">iPhone Gateway Plugin</message>
+	<message key="plugins.gateways.iPhoneGateway.description"><![CDATA[This plugin provides raw XML data for communication with an iPhone app. <strong>NOTE: This is intended to be used by Web Services and enabling this plugin has a security issue in that it provides unrestricted access to the journal in XML form (content is base64 encoded).</strong>]]></message>
+	<message key="plugins.gateways.iPhoneGateway.errors.errorMessage">Unable to export journal data. The iPhone Gateway plugin needs to be enabled and the id of the journal to exported must be provided in the URL.</message>
+</locale>

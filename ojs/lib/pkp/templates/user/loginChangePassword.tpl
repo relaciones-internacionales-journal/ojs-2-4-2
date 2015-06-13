@@ -1,0 +1,62 @@
+{**
+ * templates/user/loginChangePassword.tpl
+ *
+ * Copyright (c) 2000-2013 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * Form to change a user's password in order to login.
+ *
+ *}
+{strip}
+{assign var="pageTitle" value="user.changePassword"}
+{url|assign:"currentUrl" page="login" op="changePassword"}
+{include file="common/header.tpl"}
+{/strip}
+
+<script type="text/javascript">
+	$(function() {ldelim}
+		// Attach the form handler.
+		$('#loginChangePassword').pkpHandler('$.pkp.controllers.form.FormHandler');
+	{rdelim});
+</script>
+
+{if !$passwordLengthRestrictionLocaleKey}
+	{assign var="passwordLengthRestrictionLocaleKey" value="user.register.passwordLengthRestriction"}
+{/if}
+
+<form class="pkp_form" id="loginChangePassword" method="post" action="{url page="login" op="savePassword"}">
+
+{include file="common/formErrors.tpl"}
+
+<p><span class="instruct">{translate key="user.login.changePasswordInstructions"}</span></p>
+
+	{fbvFormArea id="loginFields"}
+		{fbvFormSection label="user.login" for="username"}
+			{fbvElement type="text" required=true id="username" value=$username|escape maxlength="32" size=$fbvStyles.size.MEDIUM}
+		{/fbvFormSection}
+		{fbvFormSection label="user.profile.oldPassword" for="oldPassword"}
+			{fbvElement type="text" required=true password=true id="oldPassword" value=$oldPassword|escape maxlength="32" size=$fbvStyles.size.MEDIUM}
+		{/fbvFormSection}
+		{fbvFormSection label="user.profile.newPassword" for="password"}
+			{fbvElement type="text" required=true password=true id="password" value=$password|escape maxlength="32" size=$fbvStyles.size.MEDIUM}
+			{fieldLabel translate=true for=password key=$passwordLengthRestrictionLocaleKey length=$minPasswordLength}
+		{/fbvFormSection}
+		{fbvFormSection label="user.profile.repeatNewPassword" for="password2"}
+			{fbvElement type="text" required=true password=true id="password2" value=$password2|escape maxlength="32" size=$fbvStyles.size.MEDIUM}
+		{/fbvFormSection}
+		<div class="separator"><hr/></div>
+		<div class="section formButtons ">																	
+			<div style="float:right;">
+				<a href="#" id="cancelFormButton" class="btn btn-danger btn-small">{translate key="common.cancel"}</a> 
+				<button class="btn btn-small" type="submit" id="submitFormButton" translate="1">{translate key="common.save"}</button>
+			</div>
+			<div class="pkp_helpers_progressIndicator"></div>
+			<div class="clear"></div>
+		</div>				
+		</fieldset>
+	{/fbvFormArea}
+
+</form>
+
+{include file="common/footer.tpl"}
+{* MODIFICADO OJS V.2.4.2 / 04-2013*}

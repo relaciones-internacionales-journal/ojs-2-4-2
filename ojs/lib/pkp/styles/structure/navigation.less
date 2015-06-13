@@ -1,0 +1,81 @@
+/**
+ * @file styles/structure/navigation.less
+ *
+ * Copyright (c) 2003-2013 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * @ingroup pkp_structure
+ *
+ * @brief Classes for navigation menu elements
+ */
+.pkp_structure_navigation {
+	margin-left: 20px;
+}
+
+.pkp_structure_head_siteNav {
+	border-bottom: 1px solid;
+	font-size: 90%;
+	color: #fff;
+	height: 3.7em;
+	width: 100%;
+
+	.pkp_form div.section {
+		margin-bottom: 0px;
+	}
+	
+	.pkp_helpers_flatlist {
+		margin-top: 10px;
+	}
+
+	li {
+		padding-left: 20px;
+	}
+
+	li.profile {}
+
+}
+
+.pkp_structure_head_localNav {
+	text-transform: uppercase;
+	font: 150% "Courier New", Courier, mono;
+}
+
+.pkp_structure_head_localNav {
+
+	.sf-menu {
+
+		a {
+			padding-right: 0.45em;
+		}
+
+		a.sf-with-ul {
+			padding-right: 1.55em;
+		}
+	}
+}
+
+.pkp_structure_search {
+	margin: 7px 10px 7px 0;
+	input {
+	    min-height: 19px;
+		border: 1px solid #ccc;
+		padding: 2px;
+		font-size: 100%;
+	}
+}
+
+.pkp_structure_breadcrumb {
+	margin: 12px 0 12px 20px;
+}
+
+.pkp_structure_breadcrumb li {
+	padding: 0 6px 0 2px;
+	font-size: 85%;
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+.pkp_structure_breadcrumb li.no_bullet {
+	list-style-type: none;
+	margin-right: -6px;
+}

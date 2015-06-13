@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "../../../../lib/pkp/dtd/helpTopic.dtd">
+<!--
+  * 000009.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Management Pages - Reading Tools
+  *
+  * $Id$
+  -->
+
+<topic id="journal/topic/000009" locale="es_ES" title="Herramientas de lectura" toc="journal/toc/000001" subtoc="journal/toc/000005" key="journal.managementPages.readingTools">
+	<section>
+		<![CDATA[<p>El gestor/a de la revista puede seleccionar un conjunto de Herramientas de lectura que aparecerán en un recuadro a la derecha de todos los elementos de las secciones indexadas de la revista (ej. en Artículos pero no en Anuncios de conferencias). Las Herramientas de lectura, diseñadas para ayudar tanto a lectores nóveles como expertos, proporcionan un contexto rico en materiales relacionados con una amplia variedad de fuentes de libre acceso. Las herramientas utilizan las palabras clave del autor para buscar de forma automática bases de datos de código abierto relevantes con materiales relacionados que el lector puede ver en una ventana distinta. El lector dispone de diferentes herramientas con sus respectivas bases de datos y además cuenta con acceso a información sobre la misma./p><p>En las opciones de la Herramienta de lectura, el gestor/a de la revista puede escoger Herramientas de elementos como "Acerca del autor", "Cómo citar un elemento" o "Imprimir elemento". Asimismo, puede elegir entre varios Sets de elementos relacionados (ej. Humanidades, Educación, Física, etc.) que proporcionan recursos para la correspondiente disciplina o un área específica. El gestor/a de la revista puede editar o eliminar Sets de elementos relacionados así como añadir nuevos. Es posible también consultar el apartado {help_topic key="user.readingTools" text="Herramientas de lectura"} en el sitio web de la revista.</p>]]>
+	</section>
+</topic>

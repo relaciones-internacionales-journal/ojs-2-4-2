@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "../../../../lib/pkp/dtd/helpTopic.dtd">
+<!--
+  * 000024.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Section Editor's Role Index - Review - Review Version 
+  *
+  * $Id$
+  -->
+
+<topic id="editorial/topic/000024" locale="es_ES" title="Versión para revisar" toc="editorial/toc/000006" key="editorial.sectionEditorsRole.review.reviewVersion">
+	<section>
+		<![CDATA[<p>La primera tarea que debe realizar el editor/a de sección consiste en revisar el texto del envío con el fin de determinar si la versión original puede servir como la versión que finalmente se revisará o, por el contrario, es necesario cargar una copia revisada. Para ver el archivo original, el editor/a de sección debe hacer clic en el nombre del archivo que aparece junto a Versión para revisar.</p><p><em>Garantizar una evaluación anónima por pares</em>. Consulte las instrucciones para {help_topic key="editorial.sectionEditorsRole.review.blindPeerReview" text="Garantizar una evaluación anónima por pares"}. Los editores/as de sección también deben consultar la página Envíos para comprobar si se pueden compartir archivos adicionales con los revisores/as. Si el autor/a desea compartir los archivos con los revisores/as, el editor/a de sección marcará la casilla de verificación, si no, la desmarcará.</p><p><em>Determinar la versión para revisar</em>. El editor/a de sección establece qué versión se revisará. Para ello, seleccionará la versión original si la considera apropiada, o cargará una versión más adecuada. Asimismo, puede solucionar problemas leves del archivo original con la ayuda de un procesador de textos. Después, debe guardar el archivo en el escritorio y cargarlo por medio de los botones Examinar/Cargar del apartado Versión para revisar.</p><p><em>Envíos que no cumplen los requisitos</em>. Si el autor/a no ha adecuado el envío a las Directrices para el autor/a de la revista como, por ejemplo, asegurarse de que se lleva a cabo una evaluación anónima por pares, el editor/a de sección puede informar al autor/a de que su trabajo no se admite y que es necesario que lo envíe de nuevo. El autor/a puede hacer llegar una versión mejorada al editor/a por correo electrónico. Este último/a cargará el archivo como Versión para revisar. Además, el editor/a de sección puede considerar que el envío simplemente no es apropiado para la revista y notificar tal decisión al autor/a. Para enviar el documento a Archivos, vaya a la página Envío y haga clic en "{translate key="editor.article.archiveSubmission"}".</p>]]>	
+	</section>
+</topic>

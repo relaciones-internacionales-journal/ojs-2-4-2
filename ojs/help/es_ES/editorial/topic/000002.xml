@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "../../../../lib/pkp/dtd/helpTopic.dtd">
+<!--
+  * 000002.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Editor's Role Submissions Index 
+  *
+  * $Id$
+  -->
+
+<topic id="editorial/topic/000002" locale="es_ES" title="Envíos" toc="editorial/toc/000001" subtoc="editorial/toc/000002" key="editorial.editorsRole.submissions">
+	<section>
+		<![CDATA[<p>Todos los envíos a la revista podrán verse en una de las cuatro listas de la página Envíos dependiendo de la fase del proceso editorial en la que se encuentren. Los editores/as tienen acceso a todos los envíos de la revista a través de esta página, mientras que los editores/as de sección sólo tienen acceso a los envíos que se les han asignado.</p>]]>	
+	</section>
+</topic>
