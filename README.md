@@ -26,8 +26,7 @@ This is our current published Open Journal System installation. It's a fully mod
 - Modified OJS files are marked with {* MODIFICADO OJS V.2.X.X / MM-YYYY*} 206 changed, aprox.
 - No plugins created. 
 - Our hosting configuration forced us to hard code most OJS internal links and create lot's of weird .htaccess rules. USUALLY YOU WILL NOT HAVE TO CHANGE OR ADD THIS.
-- Some config.inc.php configurations:
-; The canonical URL to the OJS installation (excluding the trailing slash)
+- Some config.inc.php configurations:<br>
 base_url = "http://www.relacionesinternacionales.info/ojs"<br>
 disable_path_info = On<br>
 restful_urls = Off<br>
