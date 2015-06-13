@@ -1,0 +1,3 @@
+[submodule "ojs/plugins/importexport/duracloud/lib/DuraCloud-PHP"]
+	path = ojs/plugins/importexport/duracloud/lib/DuraCloud-PHP
+	url = git://github.com/asmecher/DuraCloud-PHP.git
