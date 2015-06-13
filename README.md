@@ -1,8 +1,8 @@
 # ojs-2-4-2
-This is a fully modified OJS installation. 
+This is our current published Open Journal System installation. It's a fully modified OJS. 
 
 <b>Features:</b><br>
-- OJS 2.4.2 modifications:
+- OJS 2.4.2 modifications (OJS GitHub https://github.com/pkp/ojs):
   - Custom front-end and back-end templates.
   - Custom icons & images.
   - Custom CSS, added some CSS3.
@@ -20,6 +20,9 @@ This is a fully modified OJS installation.
   - JS Circular Content Carousel. Source: http://tympanus.net/codrops/2011/08/16/circular-content-carousel/
   - Minified CSS & JS via PHP. Source: https://github.com/mrclay/minify
 
-# Recommendations
+# Notes & Recommendations
 - OJS folders /cache/ /public/ and /files/ not provided. Neither config.inc.php for security reasons. So most images will not be available.
+- This OJS is installed in a subfolder.
+- Modified OJS files are marked with {* MODIFICADO OJS V.2.X.X / MM-YYYY*} 206 changed, aprox.
+- No plugins created. 
 - Our hosting configuration forced us to hard code most OJS internal links and create lot's of weird .htaccess rules. USUALLY YOU WILL NOT HAVE TO CHANGE OR ADD THIS.
