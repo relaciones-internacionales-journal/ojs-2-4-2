@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "../../../../lib/pkp/dtd/helpTopic.dtd">
+<!--
+  * 000037.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Copyeditor's Role - Submissions
+  *
+  * $Id$
+  -->
+
+<topic id="editorial/topic/000037" locale="es_ES" title="Envíos" toc="editorial/toc/000012" key="editorial.copyeditorsRole.submissions">
+	<section>
+		<![CDATA[<p>Cuando el corrector/a de originales inicie sesión, puede dirigirse a la cola de envíos haciendo clic en el enlace de corrector/a de originales que se encuentra en la página Área personal. En esta cola aparecen los trabajos para los que se ha solicitado corrección. A través del enlace de archivo, también se proporciona acceso a aquellos envíos que se han completado anteriormente.</p><p>Para obtener acceso a la página de corrección de un envío en particular, el corrector/a de originales hace clic en el título de una obra que aparezca en la lista de envío activa.</p>]]>	
+	</section>
+</topic>

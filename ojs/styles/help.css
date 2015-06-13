@@ -1,0 +1,114 @@
+/**
+ * styles/help.css
+ *
+ * Copyright (c) 2003-2013 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * Stylesheet for help pages.
+ *
+ */
+
+/**
+ * Misc
+ */
+
+a {text-decoration: none;}
+a:link {color: #444;}
+a:active {color: #444;}
+a:visited {color: #444;}
+a:hover {color: #717171;text-decoration:none;background: none;}
+div, p, ol, ul {font-family: 'Open Sans',Arial,Helvetica,sans-serif; font-size:12px;}
+hr {width:75%;}
+#headerTitle {width: 100%;}
+
+#body {width: 100%; margin:0 auto;padding:0;font-family: 'Open Sans',Arial,Helvetica,sans-serif; font-size:12px;}
+
+#header {float:left;width:100%;	background-color: #1a1a1a;   margin:0 0 20px 0;  padding: 10px 0 10px 0;}
+#header_container{  width: 100%x;margin: 0  0 0 20px;background-color: #1a1a1a;}
+.headerTitle {width:40%;margin:-10px 0 0 -10px;padding-left:40px;background:url("../templates/images/logo_revista_57x50.png") no-repeat 0 18px;}
+#header h1 a{font-family: 'Crimson Text', serif;font-size:28px;text-transform:uppercase;line-height:25px;color:#fff;}
+#header h1 a:hover {text-decoration:none;}
+
+#container {width: 100%!important; margin:0;padding:0; min-width:480px!important;}
+
+#sidebar {float: right;width: 20%;padding: 1em 0em 1em 0em;	font-size: 0.65em;height: 100%;	margin-right: 2%;}
+
+#main {width: 90%; float:left;}
+#main h2 {width: 100%; padding:10px;background: #e8e8e8; font-family: 'Roboto Condensed',Arial,Helvetica,sans-serif;font-size:18px; font-weight:bold;}
+#main h3 {margin-left:-20px;width:50%;padding:10px;background: #e8e8e8; font-size:14px; font-family: 'Open Sans',Arial,Helvetica,sans-serif;  font-weight:bold; text-transform:uppercase;border:none; margin-bottom:20px;}
+
+#content{ width:100%;border:none; padding-left:20px; text-align:justify;}
+#content p {text-align:justify;}
+#content ul {font-size:11px; list-style-type:square;}
+
+#footerContent {width: 100%;}
+
+/* hack to set width for non-IE browsers to to a percentage 
+   width of container (like it should be), not the window */
+html>body #main {
+	width: 68%;
+} 
+
+#main h4 {width: 100%; margin:0;padding:10px;background: #e8e8e8; font-family: 'Roboto Condensed',Arial,Helvetica,sans-serif;font-size:18px; font-weight:bold; text-transform:uppercase; border:none;}
+
+#toc ul {
+	margin: 0;
+	padding: 0;
+}
+
+#toc li {
+	list-style-type: none;
+	font-size: 1.2em;
+	padding: 1px 0px 1px 0px;
+}
+
+div.thickSeparator, div.separator {	width: 80%;padding: 0;	border-bottom: 1px solid #e8e8e8;	line-height: 0px;}
+
+
+.code {
+	font-size: 1.2em;
+	padding-left: 5px;
+	color: #666;
+}
+
+span.blockTitle {
+	color: #375;
+}
+
+/**
+ * Sidebar
+ */
+
+#sidebar div.block span.blockTitle {font-family: 'Open Sans',Arial,Helvetica,sans-serif; font-size:10px; font-weight:bold; text-transform:uppercase;}
+
+#sidebar a {
+	text-decoration: none;
+}
+
+
+/**
+ * Breadcrumb
+ */
+ 
+#breadcrumb {width:85%;padding:10px; font-family: 'Roboto Condensed',Arial,Helvetica,sans-serif;font-size:13px; font-weight:bold; text-transform:uppercase;}
+
+li.current, a.current {
+	font-weight: bold;
+}
+
+.searchBreadcrumb {
+	font-size: 0.8em;
+}
+
+.searchBreadcrumb a {
+	text-decoration: none;
+}
+
+#search li {
+	margin: 10px 0px 10px 0px;
+}
+
+#search p {
+	margin: 0px;
+	padding: 0px;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "../../../../lib/pkp/dtd/helpTopic.dtd">
+<!--
+  * 000020.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Roles - Proofreader 
+  *
+  * $Id$
+  -->
+
+<topic id="journal/topic/000020" locale="es_ES" title="Corrector/a de originales" toc="journal/toc/000003" key="journal.roles.proofreader">
+	<section>
+		<![CDATA[<p>El revisor/a se lee con detenimiento las galeradas en los distintos formatos en los que la revista publica (al igual que el autor/a). El revisor/a (y el autor/a) toman nota de cualquier tipo de error tipográfico o de formato para que el maquetista lo corrija. En algunas revistas, el editor/a o el editor/a de sección trabajan también como revisores/as.</p><p>Haga clic {help_topic key="editorial.proofreadersRole" text="aquí"} para saber más.</p>]]>	
+	</section>
+</topic>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "../../../../lib/pkp/dtd/helpTopic.dtd">
+<!--
+  * 000012.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Copyeditor's Role Index 
+  *
+  * $Id$
+  -->
+
+<topic id="editorial/topic/000012" locale="es_ES" title="Rol del corrector/a de originales" toc="editorial/toc/000000" subtoc="editorial/toc/000012" key="editorial.copyeditorsRole">
+	<section>
+		<![CDATA[<p>El corrector/a de originales recibe un correo electrónico de solicitud por parte del editor/a de sección para corregir un envío, el cual aparecerá en la cola de envíos del corrector/a de originales. Un corrector/a de originales que no pueda hacerse cargo del encargo enviará un correo electrónico al editor/a de sección.</p>]]>	
+	</section>
+</topic>

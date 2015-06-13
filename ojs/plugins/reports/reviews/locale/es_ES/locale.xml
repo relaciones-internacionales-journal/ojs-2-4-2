@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd"> <!--
+  * locale.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the es_ES (España) locale.
+  *
+  * $Id$
+  -->
+
+<locale name="es_ES" full_name="Español (España)">
+	<message key="plugins.reports.reviews.displayName">Conector de Informe de revisiones</message>
+	<message key="plugins.reports.reviews.description">Este conector ofrece un informe CSV con una lista de las tareas de revisión para una revista.</message>
+	<message key="plugins.reports.reviews.round">Ronda</message>
+	<message key="plugins.reports.reviews.reviewerId">Id. del revisor/a</message>
+	<message key="plugins.reports.reviews.reviewer">Revisor/a</message>
+	<message key="plugins.reports.reviews.dateAssigned">Fecha asignada</message>
+	<message key="plugins.reports.reviews.dateNotified">Fecha notificada</message>
+	<message key="plugins.reports.reviews.dateConfirmed">Fecha confirmada</message>
+	<message key="plugins.reports.reviews.dateCompleted">Fecha completada</message>
+	<message key="plugins.reports.reviews.dateReminded">Fecha recordada</message>
+</locale> 

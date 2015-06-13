@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  * registry/journalSettings.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Default journal settings.
+  -->
+
+<!DOCTYPE journal_settings [
+	<!ELEMENT journal_settings (setting+)>
+	<!ELEMENT setting (name, value)>
+	<!ATTLIST setting type (int|string|object|bool) #REQUIRED>
+	<!ATTLIST setting locale (0|1) #REQUIRED>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT value (#PCDATA | array)*>
+	<!ELEMENT element (#PCDATA | array)*>
+	<!ATTLIST element key CDATA #IMPLIED>
+	<!ELEMENT array (element+)>
+]>
+
+<journal_settings>
+	<setting type="int" locale="0">
+		<name>numPageLinks</name>
+		<value>10</value>
+	</setting>
+	<setting type="int" locale="0">
+		<name>itemsPerPage</name>
+		<value>25</value>
+	</setting>
+	<setting type="int" locale="0">
+		<name>numWeeksPerReview</name>
+		<value>4</value>
+	</setting>
+	<setting type="string" locale="1">
+		<name>privacyStatement</name>
+		<value>{translate key="default.journalSettings.privacyStatement"}</value>
+	</setting>
+	<setting type="string" locale="1">
+		<name>openAccessPolicy</name>
+		<value>{translate key="default.journalSettings.openAccessPolicy"}</value>
+	</setting>
+	<setting type="string" locale="1">
+		<name>authorSelfArchivePolicy</name>
+		<value>{translate key="default.journalSettings.authorSelfArchivePolicy"}</value>
+	</setting>
+	<setting type="string" locale="1">
+		<name>copyeditInstructions</name>
+		<value>{translate key="default.journalSettings.copyeditInstructions"}</value>
+	</setting>
+	<setting type="string" locale="0">
+		<name>emailSignature</name>
+		<value>{translate key="default.journalSettings.emailSignature"}</value>
+	</setting>
+	<setting type="string" locale="1">
+		<name>proofInstructions</name>
+		<value>{translate key="default.journalSettings.proofingInstructions"}</value>
+	</setting>
+	<setting type="string" locale="1">
+		<name>refLinkInstructions</name>
+		<value>{translate key="default.journalSettings.refLinkInstructions"}</value>
+	</setting>
+	<setting type="string" locale="1">
+		<name>readerInformation</name>
+		<value>{translate key="default.journalSettings.forReaders"}</value>
+	</setting>
+	<setting type="string" locale="1">
+		<name>authorInformation</name>
+		<value>{translate key="default.journalSettings.forAuthors"}</value>
+	</setting>
+	<setting type="string" locale="1">
+		<name>librarianInformation</name>
+		<value>{translate key="default.journalSettings.forLibrarians"}</value>
+	</setting>
+	<setting type="string" locale="1">
+		<name>lockssLicense</name>
+		<value>{translate key="default.journalSettings.lockssLicense"}</value>
+	</setting>
+	<setting type="object" locale="0">
+		<name>supportedLocales</name>
+		<value>
+			<array>
+				<element>{$primaryLocale}</element>
+			</array>
+		</value>
+	</setting>
+	<setting type="object" locale="0">
+		<name>supportedFormLocales</name>
+		<value>
+			<array>
+				<element>{$primaryLocale}</element>
+			</array>
+		</value>
+	</setting>
+	<setting type="object" locale="0">
+		<name>supportedSubmissionLocales</name>
+		<value>
+			<array>
+				<element>{$primaryLocale}</element>
+			</array>
+		</value>
+	</setting>
+	<setting type="object" locale="1">
+		<name>submissionChecklist</name>
+		<value>
+			<array>
+				<element>
+					<array>
+						<element key="content">{translate key="default.journalSettings.checklist.notPreviouslyPublished"}</element>
+						<element key="order">1</element>
+					</array>
+				</element>
+				<element>
+					<array>
+						<element key="content">{translate key="default.journalSettings.checklist.fileFormat"}</element>
+						<element key="order">2</element>
+					</array>
+				</element>
+				<element>
+					<array>
+						<element key="content">{translate key="default.journalSettings.checklist.addressesLinked"}</element>
+						<element key="order">3</element>
+					</array>
+				</element>
+				<element>
+					<array>
+						<element key="content">{translate key="default.journalSettings.checklist.submissionAppearance"}</element>
+						<element key="order">4</element>
+					</array>
+				</element>
+				<element>
+					<array>
+						<element key="content">{translate key="default.journalSettings.checklist.bibliographicRequirements"}</element>
+						<element key="order">5</element>
+					</array>
+				</element>
+				<element>
+					<array>
+						<element key="content">{translate key="default.journalSettings.checklist.anonymous"}</element>
+						<element key="order">6</element>
+					</array>
+				</element>
+			</array>
+		</value>
+	</setting>
+	<setting type="bool" locale="0">
+		<name>rtAbstract</name>
+		<value>true</value>
+	</setting>
+	<setting type="bool" locale="0">
+		<name>rtCaptureCite</name>
+		<value>true</value>
+	</setting>
+	<setting type="bool" locale="0">
+		<name>rtViewMetadata</name>
+		<value>true</value>
+	</setting>
+	<setting type="bool" locale="0">
+		<name>rtSupplementaryFiles</name>
+		<value>true</value>
+	</setting>
+	<setting type="bool" locale="0">
+		<name>rtPrinterFriendly</name>
+		<value>true</value>
+	</setting>
+	<setting type="bool" locale="0">
+		<name>rtDefineTerms</name>
+		<value>true</value>
+	</setting>
+	<setting type="bool" locale="0">
+		<name>rtAddComment</name>
+		<value>true</value>
+	</setting>
+	<setting type="bool" locale="0">
+		<name>rtEmailAuthor</name>
+		<value>true</value>
+	</setting>
+	<setting type="bool" locale="0">
+		<name>rtEmailOthers</name>
+		<value>true</value>
+	</setting>
+	<setting type="bool" locale="0">
+		<name>allowRegReviewer</name>
+		<value>true</value>
+	</setting>
+	<setting type="bool" locale="0">
+		<name>allowRegAuthor</name>
+		<value>true</value>
+	</setting>
+	<setting type="bool" locale="0">
+		<name>allowRegReader</name>
+		<value>true</value>
+	</setting>
+	<setting type="int" locale="0">
+		<name>submissionFee</name>
+		<value>0</value>
+	</setting>	
+	<setting type="string" locale="1">
+		<name>submissionFeeName</name>
+		<value>{translate key="default.journalSettings.submissionFee"}</value>
+	</setting>
+	<setting type="string" locale="1">
+		<name>submissionFeeDescription</name>
+		<value>{translate key="default.journalSettings.submissionFeeDescription"}</value>
+	</setting>			
+	<setting type="int" locale="0">
+		<name>fastTrackFee</name>
+		<value>0</value>
+	</setting>	
+	<setting type="string" locale="1">
+		<name>fastTrackFeeName</name>
+		<value>{translate key="default.journalSettings.fastTrackFee"}</value>
+	</setting>
+	<setting type="string" locale="1">
+		<name>fastTrackFeeDescription</name>
+		<value>{translate key="default.journalSettings.fastTrackFeeDescription"}</value>
+	</setting>			
+	<setting type="int" locale="0">
+		<name>publicationFee</name>
+		<value>0</value>
+	</setting>	
+	<setting type="string" locale="1">
+		<name>publicationFeeName</name>
+		<value>{translate key="default.journalSettings.publicationFee"}</value>
+	</setting>
+	<setting type="string" locale="1">
+		<name>publicationFeeDescription</name>
+		<value>{translate key="default.journalSettings.publicationFeeDescription"}</value>
+	</setting>
+	<setting type="string" locale="1">
+		<name>waiverPolicy</name>
+		<value>{translate key="default.journalSettings.waiverPolicy"}</value>
+	</setting>				
+	<setting type="int" locale="0">
+		<name>purchaseArticleFee</name>
+		<value>0</value>
+	</setting>	
+	<setting type="string" locale="1">
+		<name>purchaseArticleFeeName</name>
+		<value>{translate key="default.journalSettings.purchaseArticleFee"}</value>
+	</setting>
+	<setting type="string" locale="1">
+		<name>purchaseArticleFeeDescription</name>
+		<value>{translate key="default.journalSettings.purchaseArticleFeeDescription"}</value>
+	</setting>			
+	<setting type="int" locale="0">
+		<name>membershipFee</name>
+		<value>0</value>
+	</setting>	
+	<setting type="string" locale="1">
+		<name>membershipFeeName</name>
+		<value>{translate key="default.journalSettings.membershipFee"}</value>
+	</setting>
+	<setting type="string" locale="1">
+		<name>membershipFeeDescription</name>
+		<value>{translate key="default.journalSettings.membershipFeeDescription"}</value>
+	</setting>			
+	<setting type="string" locale="1">
+		<name>donationFeeName</name>
+		<value>{translate key="default.journalSettings.donationFee"}</value>
+	</setting>
+	<setting type="string" locale="1">
+		<name>donationFeeDescription</name>
+		<value>{translate key="default.journalSettings.donationFeeDescription"}</value>
+	</setting>
+	<setting type="bool" locale="1">
+		<name>metaCitations</name>
+		<value>1</value>
+	</setting>
+</journal_settings>

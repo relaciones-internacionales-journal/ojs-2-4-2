@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "../../../../lib/pkp/dtd/helpTopic.dtd">
+<!--
+  * 000014.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Proofreader's Role Index 
+  *
+  * $Id$
+  -->
+
+<topic id="editorial/topic/000014" locale="es_ES" title="Rol del corrector/a de pruebas" toc="editorial/toc/000000" subtoc="editorial/toc/000014" key="editorial.proofreadersRole">
+	<section>
+		<![CDATA[<p>El corrector/a recibirá un correo electrónico del editor/a de sección pidiéndole que lleve a cabo una, o varias, correcciones. A partir de entonces le corresponde al corrector/a aceptar o rechazar la responsabilidad. En caso de aceptar, el corrector/a podrá iniciar sesión y comenzar el proceso de corrección desde su página de usuario/a.</p>]]>	
+	</section>
+</topic>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE email_texts SYSTEM "../../../../../lib/pkp/dtd/emailTemplateData.dtd">
+<!--
+  * plugins/paymethod/manual/locale/pt_BR/emailTemplateData.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localized email templates XML file.
+  -->
+<email_texts locale="pt_BR">
+	<email_text key="MANUAL_PAYMENT_NOTIFICATION">
+		<subject>Notificação de pagamento manual</subject>
+		<body>É necessário realizar o processamento de um pagamento manual de assinatura da revista {$journalName}, pelo usuário {$userFullName} (login "{$userName}").
+
+O item adquirido é "{$itemName}".
+Valor em ({$itemCurrencyCode}): {$itemCost}
+
+Esta é uma mensagem automática da ferramenta de Pagamento manual do Open Journal Systems.</body>
+		<description>Mensagem automática notificando editor-gerente que um pagamento manual foi realizado e exige processamento.</description>
+	</email_text>
+</email_texts>

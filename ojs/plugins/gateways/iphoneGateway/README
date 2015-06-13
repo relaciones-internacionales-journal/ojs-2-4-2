@@ -1,0 +1,17 @@
+show journal information
+[OJS URL]/index.php/[JournalPath]/gateway/plugin/iPhoneGatewayPlugin/journal
+
+show all or one book 
+[OJS URL]/index.php/[JournalPath]/gateway/plugin/iPhoneGatewayPlugin/issues/[(optional)journalId]
+
+show all articles of a book
+[OJS URL]/index.php/[JournalPath]/gateway/plugin/iPhoneGatewayPlugin/sections/[issueId]
+
+insert new comment for an article
+[OJS URL]/index.php/[JournalPath]/gateway/plugin/iPhoneGatewayPlugin/comment/[uername]/[md5(password)]/[articleId]/[base64(title)]/[base64(text)]
+
+show all comments of an article
+[OJS URL]/index.php/[JournalPath]/gateway/plugin/iPhoneGatewayPlugin/comments/[articleId]
+
+user login
+[OJS URL]/index.php/[JournalPath]/gateway/plugin/iPhoneGatewayPlugin/auth/[username]/[md5(password)]

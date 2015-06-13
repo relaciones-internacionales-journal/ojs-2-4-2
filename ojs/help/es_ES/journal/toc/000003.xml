@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE toc SYSTEM "../../../../lib/pkp/dtd/helpToc.dtd">
+
+<!--
+  * 000003.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * table of contents for Journal Management - Roles. 
+  *
+  * $Id$
+  -->
+
+<toc id="journal/toc/000003" locale="es_ES" title="Roles" parent_topic="journal/topic/000003">
+	<topic id="journal/topic/000015" title="Gestor/a de la revista" />
+	<topic id="journal/topic/000016" title="Editor/a" />
+	<topic id="journal/topic/000017" title="Editor/a de sección" />
+	<topic id="journal/topic/000019" title="Corrector/a de originales" />
+	<topic id="journal/topic/000018" title="Maquetista" />
+	<topic id="journal/topic/000020" title="Corrector/a de pruebas" />
+	<topic id="journal/topic/000021" title="Revisor/a" />
+	<topic id="journal/topic/000022" title="Autor/a" />
+	<topic id="journal/topic/000023" title="Lector/a" />
+	<topic id="journal/topic/000032" title="Gestor/a de suscripciones" />
+
+	<breadcrumb url="journal/topic/000000" title="Gestión de la revista" />
+	<breadcrumb url="journal/topic/000003" title="Roles" />
+</toc>

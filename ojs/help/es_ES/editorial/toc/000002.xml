@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE toc SYSTEM "../../../../lib/pkp/dtd/helpToc.dtd">
+
+<!--
+  * 000002.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Tabla de contenido para el proceso editorial - Rol del editor/a - Envíos
+  *
+  *
+  * $Id$
+  -->
+
+<toc id="editorial/toc/000002" locale="es_ES" title="Envíos" parent_topic="editorial/topic/000002">
+	<topic id="editorial/topic/000015" title="Sin asignar" />
+	<topic id="editorial/topic/000016" title="En revisión" />
+	<topic id="editorial/topic/000017" title="En edición" />
+	<topic id="editorial/topic/000018" title="Archivos" />
+
+	<breadcrumb url="editorial/topic/000000" title="Proceso editorial" />
+	<breadcrumb url="editorial/topic/000001" title="Rol del editor/a" />
+	<breadcrumb url="editorial/topic/000002" title="Envíos" />
+</toc>

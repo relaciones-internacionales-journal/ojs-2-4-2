@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd"> <!--
+  * locale.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the es_ES (España) locale.
+  *
+  * $Id$
+  -->
+
+<locale name="es_ES" full_name="Español (España)">
+	<message key="plugins.reports.articles.displayName">Conector de Informe de artículos</message>
+	<message key="plugins.reports.articles.description">Este conector ofrece un informe CSV con una lista de los artículos e información sobre ellos.</message>
+	<message key="plugins.reports.articles.nodecision">Sin decidir</message>
+</locale> 

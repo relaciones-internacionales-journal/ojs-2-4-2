@@ -1,0 +1,79 @@
+{**
+ * templates/submission/instructions.tpl
+ *
+ * Copyright (c) 2003-2013 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * Submissions instructions page.
+ *
+ *}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>{translate key=$pageTitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset={$defaultCharset|escape}" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+
+	<link rel="stylesheet" href="{$baseUrl}/lib/pkp/styles/common.css" type="text/css" />
+	<link rel="stylesheet" href="{$baseUrl}/styles/common.css" type="text/css" />
+	<link rel="stylesheet" href="{$baseUrl}/styles/compiled.css" type="text/css" />
+	<link rel="stylesheet" href="{$baseUrl}/styles/help.css" type="text/css" />
+
+	{foreach from=$stylesheets item=cssUrl}
+		<link rel="stylesheet" href="{$cssUrl}" type="text/css" />
+	{/foreach}
+	<!-- Bootstrap -->
+    <link href="{$baseUrl}/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
+	<!-- Google Fonts -->
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300" type="text/css" />
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" type="text/css" />
+	<link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,700,600' rel='stylesheet' type='text/css'>
+
+	<!-- Compiled scripts -->
+	{if $useMinifiedJavaScript}
+		<script type="text/javascript" src="{$baseUrl}/js/pkp.min.js"></script>
+	{else}
+		{include file="common/minifiedScripts.tpl"}
+	{/if}
+
+	{$additionalHeadData}
+</head>
+<body>
+{literal}
+<script type="text/javascript">
+<!--
+	if (self.blur) { self.focus(); }
+// -->
+</script>
+{/literal}
+
+<div id="container">
+<div id="body">
+
+<div id="header">
+	<div id="header_container">				
+		<div class="headerTitle">
+			<h1><a href="{$baseUrl}/index.html">Relaciones Internacionales</a></h1>
+		</div>
+	</div>
+</div>
+
+	<div id="main">
+
+		<h2>{translate key=$pageTitle}</h2>
+
+		<div id="content">
+			<p>{$instructions|nl2br}</p>
+			<p><input type="button" onclick="window.close()" value="{translate key="common.close"}" class="btn btn-danger btn-small" /></p>
+		</div>
+
+	</div>
+
+</div>
+</div>
+<script type="text/javascript" src="{$baseUrl}/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
+{* MODIFICADO OJS V.2.4.2 / 04-2013*}

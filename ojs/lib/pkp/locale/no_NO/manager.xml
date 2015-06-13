@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/no_NO/manager.xml
+  *
+  * Copyright (c) 2000-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the no_NO (Norwegian) locale.
+  *
+  -->
+
+<locale name="no_NO" full_name = "Norwegian">
+	<message key="manager.announcements">Oppslagstavle</message>
+	<message key="manager.announcements.confirmDelete">Er du sikker på at du vil slette dette oppslaget for alltid?</message>
+	<message key="manager.announcements.create">Opprett nytt oppslag</message>
+	<message key="manager.announcements.createTitle">Opprett</message>
+	<message key="manager.announcements.dateExpire">Utløper</message>
+	<message key="manager.announcements.edit">Rediger oppslag</message>
+	<message key="manager.announcements.editTitle">Rediger</message>
+	<message key="manager.announcements.form.dateExpireDayIncompleteDate">Vennligst velg år og/eller måned, i tillegg til utløpsdatoens dag.</message>
+	<message key="manager.announcements.form.dateExpire">Utløpsdato</message>
+	<message key="manager.announcements.form.dateExpireInstructions">Oppslaget vil vises til denne dato. La stå tom hvis oppslaget skal vises på ubestemt tid.</message>
+	<message key="manager.announcements.form.dateExpireMonthIncompleteDate">Vennligst velg år og/eller dag, i tillegg til utløpsdatoens måned.</message>
+	<message key="manager.announcements.form.dateExpireValid">Vennligst velg en gyldig utløpsdato for oppslaget.</message>
+	<message key="manager.announcements.form.dateExpireYearIncompleteDate">Vennligst velg måned og/eller dag, i tillegg til utløpsdatoens år.</message>
+	<message key="manager.announcements.form.description">Beskrivelse</message>
+	<message key="manager.announcements.form.descriptionInstructions">Oppslagsteksten.</message>
+	<message key="manager.announcements.form.descriptionRequired">En oppslagsbeskrivelse er påkrevet.</message>
+	<message key="manager.announcements.form.descriptionShortInstructions">En kort beskrivelse som vil bli vist sammen med oppslagets tittel.</message>
+	<message key="manager.announcements.form.descriptionShortRequired">En kort oppslagsbeskrivelse er påkrevet.</message>
+	<message key="manager.announcements.form.descriptionShort">Kort beskrivelse</message>
+	<message key="manager.announcements.form.saveAndCreateAnother">Lagre og opprett en til</message>
+	<message key="manager.announcements.form.titleRequired">En oppslagtittel er påkrevet.</message>
+	<message key="manager.announcements.form.title">Tittel</message>
+	<message key="manager.announcements.form.typeId">Type</message>
+	<message key="manager.announcements.form.typeIdValid">Vennligst velg en gyldig oppslagstype.</message>
+	<message key="manager.announcements.noneCreated">Ingen oppslag er opprettet.</message>
+	<message key="manager.announcements.title">Tittel</message>
+	<message key="manager.announcements.type">Type</message>
+	<message key="manager.announcementTypes">Oppslagstyper</message>
+	<message key="manager.announcementTypes.confirmDelete">Advarsel! Alle oppslag med denne oppslagstypen vil også bli slettet. Er du sikker på at du vil fortsette, og slette denne oppslagstypen?</message>
+	<message key="manager.announcementTypes.create">Opprett oppslagstype</message>
+	<message key="manager.announcementTypes.createTitle">Opprett</message>
+	<message key="manager.announcementTypes.edit">Rediger oppslagstype</message>
+	<message key="manager.announcementTypes.editTitle">Rediger</message>
+	<message key="manager.announcementTypes.form.saveAndCreateAnother">Lagre og opprett en til</message>
+	<message key="manager.announcementTypes.form.typeNameExists">En oppslagstype med dette navnet finnes allerede.</message>
+	<message key="manager.announcementTypes.form.typeName">Navn</message>
+	<message key="manager.announcementTypes.form.typeNameRequired">Et oppslagstypenavn er påkrevet.</message>
+	<message key="manager.announcementTypes.noneCreated">Ingen oppslagstyper er opprettet.</message>
+	<message key="manager.announcementTypes.typeName">Oppslagstype</message>
+	<message key="manager.emails.confirmDelete">Er du sikker på at du vil slette denne e-postmalen?</message>
+	<message key="manager.emails.confirmReset">Er du sikker på at du vil tilbakestille denne e-postmalen til default verdier?</message>
+	<message key="manager.emails.createEmail">Lag e-post</message>
+	<message key="manager.emails.disable">Slå av</message>
+	<message key="manager.emails.editEmail">Rediger e-post</message>
+	<message key="manager.emails.editTestExample">Rediger e-post testeksempel</message>
+	<message key="manager.emails.emailKey">E-postnøkkel</message>
+	<message key="manager.emails.emailKeyExists">En e-post med denne nøkkelen finnes allerede. E-postnøkler må være unike.</message>
+	<message key="manager.emails.emailTemplate">E-postmal</message>
+	<message key="manager.emails.emailTemplates">E-postmaler</message>
+	<message key="manager.emails.enabled">Slå på denne e-postmalen</message>
+	<message key="manager.emails.enable">Slå på</message>
+	<message key="manager.emails.form.bodyRequired">En meldingstekst er påkrevet for e-posten.</message>
+	<message key="manager.emails.form.subjectRequired">Et emne er påkrevet for e-posten.</message>
+	<message key="manager.emails">Forberedte e-poster</message>
+	<message key="manager.emails.resetAll">Tilbakestill alle maler</message>
+	<message key="manager.emails.reset">Tilbakestill</message>
+	<message key="manager.emails.resetToDefault">Tilbakestill til default</message>
+	<message key="manager.filesBrowser">Filutforsker</message>
+	<message key="manager.files.confirmDelete">Slett denne filen eller mappen? Merk at mappen må være tom før den kan slettes.</message>
+	<message key="manager.files.createDir">Opprett mappe</message>
+	<message key="manager.files.emptyDir">Ingen filer funnet i denne mappen.</message>
+	<message key="manager.files.indexOfDir">Indeks for {$dir}</message>
+	<message key="manager.files.parentDir">Mappen ovenfor</message>
+	<message key="manager.files.uploadedFiles">Opplastete filer</message>
+	<message key="manager.files.uploadFile">Last opp fil</message>
+	<message key="manager.groups.confirmDelete">Er du sikker på at du vil slette denne gruppen?</message>
+	<message key="manager.groups.createTitle">Opprett tittel</message>
+	<message key="manager.groups.editTitle">Rediger tittel</message>
+	<message key="manager.groups.form.groupTitleRequired">En gruppetittel er påkrevet.</message>
+	<message key="manager.groups.membership.addMember">Legg til medlem</message>
+	<message key="manager.groups.membership.confirmDelete">Er du sikker på at du vil slette dette gruppemedlemskapet?</message>
+	<message key="manager.groups.membership">Medlemskap</message>
+	<message key="manager.groups.membership.noneCreated">Denne gruppen har ingen medlemmer.</message>
+	<message key="manager.groups.membership.noUsers">Ingen brukere ble funnet.</message>
+	<message key="manager.groups.title">Tittel</message>
+	<message key="manager.importExport">Importer/eksporter data</message>
+	<message key="manager.languages.alternateLocaleInstructions">Dette systemet gjør det mulig å kreve at en del informasjon skrives inn på opptil to tilleggsspråk. For å bruke denne funksjonen, må du velge alternative lokalinnstillinger blant valgmulighetene på listen nedenfor.</message>
+	<message key="manager.languages.supportedLocalesInstructions">Velg alle lokalinnstillinger som nettstedet skal støtte, via en språkvalgmeny som vises på hver side. Menyen kommer bare til å bli vist hvis flere enn en lokalinnstilling er valgt.</message>
+	<message key="manager.payment.timestamp">Tidsreferanse</message>
+	<message key="manager.people.authSource">Valideringskilde</message>
+	<message key="manager.people.confirmUnenroll">Avløs denne brukeren?</message>
+	<message key="manager.people.createUser">Opprett ny bruker</message>
+	<message key="manager.people.createUserGeneratePassword">Generer et tilfeldig passord.</message>
+	<message key="manager.people.createUserSendNotify">Send brukeren en velkomst-e-post med brukernavn og passord.</message>
+	<message key="manager.people.disable">Slå av</message>
+	<message key="manager.people.doNotEnroll">Uten rolle</message>
+	<message key="manager.people.editProfile">Rediger profil</message>
+	<message key="manager.people.editUser">Rediger bruker</message>
+	<message key="manager.people.emailUsers.emailSelectedUsers">E-post til valgte brukere</message>
+	<message key="manager.people.emailUsers.emailUsersEnrolledAs">E-post til brukere vervet som</message>
+	<message key="manager.people.emailUsers">E-post til brukere</message>
+	<message key="manager.people.emailUsers.selectLocale">Velg en lokalinnstilling</message>
+	<message key="manager.people.emailUsers.selectUsers">Velg de brukerne du vil sende e-post ved å krysse av i feltet ved siden av navnet</message>
+	<message key="manager.people.enable">Slå på</message>
+	<message key="manager.people.enroll">Verve bruker</message>
+	<message key="manager.people.enrollment">Verving</message>
+	<message key="manager.people.enrollSelected">Verve utvalgte brukere</message>
+	<message key="manager.people.enrollSyncRole">Synkroniser rolle</message>
+	<message key="manager.people.enrollSync">Synk verving</message>
+	<message key="manager.people.enrollUserAsDescription">Roller kan tildeles eller avløses når som helst etter at brukeren er opprettet.</message>
+	<message key="manager.people.enrollUserAs">Verve bruker som</message>
+	<message key="manager.people.invalidUser">Beklager, brukeren du leter etter finnes ikke.</message>
+	<message key="manager.people.mergeUser">Slå sammen bruker</message>
+	<message key="manager.people.mergeUsers.confirm">Er du sikker på at du vil slå kontoen med brukernavnet "{$oldUsername}" sammen med kontoen med brukernavnet "{$newUsername}"? Kontoen med brukernavnet "{$oldUsername}" vil ikke lenger finnes. NB: Denne handlingen kan ikke gjøres om.</message>
+	<message key="manager.people.mergeUsers">Slå sammen brukere</message>
+	<message key="manager.people.mustChooseRole">Vennligst velg en rolle (øverst på siden) før du klikker 'Verve bruker'.</message>
+	<message key="manager.people.mustProvideName">Vennligst før inn minst et etternavn for denne brukeren før du går videre.</message>
+	<message key="manager.people.noMatchingUsers">Ingen tilsvarende brukere.</message>
+	<message key="manager.people.noneEnrolled">Ingen vervete brukere.</message>
+	<message key="manager.people">Personer</message>
+	<message key="manager.people.remove">Fjern</message>
+	<message key="manager.people.saveAndCreateAnotherUser">Lagre og opprett en til</message>
+	<message key="manager.people.signInAs">Logg inn som</message>
+	<message key="manager.people.signInAsUser">Logg inn som bruker</message>
+	<message key="manager.people.syncUsers">Synkroniser brukerverving</message>
+	<message key="manager.people.unenroll">Avløs</message>
+	<message key="manager.people.userCreatedSuccessfully">Brukeren er nå opprettet.</message>
+	<message key="manager.people.userMustChangePassword">Krev at brukeren endrer passordet sitt ved neste innlogging.</message>
+	<message key="manager.plugins.action">Handling:</message>
+	<message key="manager.plugins.disable">Slå av</message>
+	<message key="manager.plugins.enable">Slå på</message>
+	<message key="manager.plugins.pluginManagement">Administrasjon av programutvidelser</message>
+	<message key="manager.plugins.sitePlugin">Dette er en programutvidelse for hele nettstedet. Bare nettstedsadministratoren kan administrere denne programutvidelsen.</message>
+	<message key="manager.plugins">Programutvidelser</message>
+	<message key="manager.readingTools">Leseverktøy</message>
+	<message key="manager.roles">Roller</message>
+	<message key="manager.setup.homeHeaderImageInvalid">Ugyldig hjemmesidetopptekst logobildeformat. Aksepterte format er .gif, .jpg, eller .png.</message>
+	<message key="manager.setup.homepageImageInvalid">Ugyldig hjemmesidebildeformat. Aksepterte format er .gif, .jpg, eller .png.</message>
+	<message key="manager.setup.homeTitleImageInvalid">Ugyldig hjemmesidetopptekst tittelbildeformat. Aksepterte format er .gif, .jpg, eller .png.</message>
+	<message key="manager.setup.layout.leftSidebar">Venstre sidespalte</message>
+	<message key="manager.setup.layout.rightSidebar">Høyre sidespalte</message>
+	<message key="manager.setup.layout.unselected">Ikke valgt</message>
+	<message key="manager.setup.loggingAndAuditing">Logging og revisjon</message>
+	<message key="manager.setup.pageHeaderLogoImageInvalid">Ugyldig sidetopptekst logobildeformat. Aksepterte format er .gif, .jpg, eller .png.</message>
+	<message key="manager.setup.pageHeaderTitleImageInvalid">Ugyldig sidetopptekst tittelbildeformat. Aksepterte format er .gif, .jpg, eller .png.</message>
+	<message key="manager.setup.selectOne">Velg en</message>
+	<message key="manager.statistics">Statistikk og rapporter</message>
+	<message key="manager.statistics.statistics.count.value">{$count} ({$percentage}%)</message>
+	<message key="manager.statistics.statistics.totalNewValue">{$numTotal} ({$numNew} nye)</message>
+	<message key="manager.users">Brukere</message>
+	<message key="plugins.categories.auth">Programutvidelser for validering</message>
+	<message key="plugins.categories.blocks">Programutvidelser for blokker</message>
+	<message key="plugins.categories.blocks.description">Programutvidelser for blokker er brukergrensesnittkomponenter, som de ulike verktøyene i sidemenyen.</message>
+	<message key="plugins.categories.citationFormats">Plugins for siteringsformat</message>
+	<message key="plugins.categories.gateways.description">Programutvidelser for porter gir kontinuerlige data til eksterne systemer.</message>
+	<message key="plugins.categories.gateways">Programutvidelser for porter</message>
+	<message key="plugins.categories.generic">Generiske programutvidelser</message>
+	<message key="plugins.categories.importexport.description">Programutvidelser for import/eksport kan brukes for å overføre innhold til og fra andre systemer.</message>
+	<message key="plugins.categories.importexport">Programutvidelser for import/eksport</message>
+	<message key="plugins.categories.paymethod.description">Programutvidelser for betalingsmetoder implementerer støtter for forskjellige metoder for å behandle online-betalinger.</message>
+	<message key="plugins.categories.paymethod">Programutvidelser for betaling</message>
+	<message key="plugins.categories.reports.description">Programutvidelser for rapportering brukes for å implementere ulike typer rapporter og datauttrekk for konferanseadministratorer.</message>
+	<message key="plugins.categories.reports">Programutvidelser for rapportering</message>
+	<message key="plugins.categories.themes.description">Theme Plugins can be used to change the system's appearance.</message>
+	<message key="plugins.categories.themes">Programutvidelser for tema</message>
+	<message key="manager.emails.form.emailKeyRequired">En unik e-postnøkkel er påkrevd for e-posten.</message>
+	<message key="manager.reviewerSearch.advancedSearch">Avansert fagfelle-søk</message>
+	<message key="manager.reviewerSearch.searchByName">Søk etter fagfelle etter navn</message>
+	<message key="manager.reviewerSearch.doneAmount">Antall fullførte vurderinger</message>
+	<message key="manager.reviewerSearch.avgAmount">Gjennomsnittlig antall dager per vurdering</message>
+	<message key="manager.reviewerSearch.lastAmount">Dager siden siste vurdering</message>
+	<message key="manager.reviewerSearch.activeAmount">Antall pågående vurderinger</message>
+	<message key="manager.setup.errorDeletingItem">Det oppstod en feil ved sletting.</message>
+	<message key="manager.setup.filter.grid.errorDeletingFilter">Det oppstod en feil ved forsøket på å fjerne dette filteret. Vennligst rapporter dette som en programfeil.</message>
+	<message key="manager.setup.filter.grid.confirmDelete">Vil du virkelig slette {$filterName}-filteret?</message>
+	<message key="manager.setup.filter.lookup.grid.descriptionTemplate">Vennligst velg en database å slå opp i</message>
+	<message key="manager.announcements.datePublish">Publisert</message>
+	<message key="manager.emails.addEmail">Legg til e-postmal</message>
+	<message key="manager.emails.details">Maldetaljer</message>
+	<message key="manager.navigation">Navigering</message>
+	<message key="manager.reviewerSearch.advancedSearch.short">Avansert søk</message>
+	<message key="manager.reviewerSearch.searchByName.short">Søk etter navn</message>
+	<message key="manager.masthead.title">Hode/kolofonside</message>
+	<message key="manager.setup.filter.lookup.grid.descriptionConfirm">Du har valgt å legge til databasen {$filterDisplayName}. Klikk 'OK' for å bekrefte.</message>
+	<message key="manager.emails.data">Malmeldingsdata</message>
+	<message key="manager.emails.disable.message">Du er i ferd med å deaktivere denne e-postmalen. Om det finnes systemprosesser som benytter denne malen, vil de ikke bruke den mer. Ønsker du å bekrefte deaktivering?</message>
+	<message key="manager.emails.enable.message">Du er i ferd med å aktivere denne e-posten. Ønsker du å bekrefte denne aktiveringen?</message>
+	<message key="manager.emails.resetAll.message">Om du tilbakestiller alle maler vil alle endringer som er gjort i e-postmalene bli borte. Ønsker du å bekrefte tilbakestillingen?</message>
+	<message key="manager.emails.reset.message">Om du tilbakestiller denne malen, vil alle data i meldingen bli tilbakestilt til standardverdier og alle endringer vil bli borte. Vil du bekrefte denne tilbakestillingen?</message>
+	<message key="manager.setup.citationAssistant">Referansemarkeringshjelper</message>
+	<message key="manager.setup.citationFilterParser">Referanseuthenting</message>
+	<message key="manager.setup.citationFilterParserDescription"><![CDATA[<p>For å finne og kontrollere referanser i referansedatabaser må de først splittes opp i maskinlesbare metadata: tittel, utgiver, publiseringsdato osv. må alle hentes ut av den originale referanseteksten som forfatteren har oppgitt den. Konnektorer til eksterne nettjenester kan hjelpe med dette arbeidet. En eller flere konnektorer kan legges til ved å klikke på "Legg til"-knappen nedenfor. Noen konnektorer må konfigureres, du vil bli spurt hvis så er tilfelle.</p>
+		<p>Du kan redigere eller slette en eksisterende konnektor ved å klikke på ikonet ved siden av den.</p>]]></message>
+	<message key="manager.setup.citationFilterLookup">Referansesjekking</message>
+	<message key="manager.setup.citationFilterLookupDescription"><![CDATA[<p>Du må også tillate og konfigurere tilknytninger til eksterne siteringsdatabaser. Dette vil hjelpe til med å finne feil i forfatternes referanser eller legge til manglende informasjon (f.eks. DOIer eller PubMed-IDer) som er nødvendig for elektronsik publisering eller avgivelse.</p>
+		<p>Vi tilbyr konnektorer til flere eksterne databaser hvor du kan søke etter referanser. Noen av disse databasene krever registrering eller konfigurering. Se informasjon på databasenes nettsider med hensyn til hvordan du kan registrere deg. Du kan legge til en eller flere databaser ved å klikke på "Legg til"-knappen nedenfor.</p>
+		<p>Du kan redigere eller fjerne en eksisterende ekstern database ved å klikke på ikonet ved siden av den.</p>
+		<p><strong>Merk:</strong> For at referansesjekkprosessen skal foregå med ønsket hastighet, må <tt>citation_checking_max_processes</tt>-innstillngen i din konfigurasjonsfil være satt til en fornuftig verdi. Se avsnittet Generelle innstillinger i <tt>config.inc.php</tt> for mer informasjon.</p>]]></message>
+	<message key="manager.setup.citationOutput">Referanse resultat</message>
+	<message key="manager.setup.citationOutputStyleDescription">Velg en referansestil som benyttes i innsendingene til ditt tidsskrift. Referansemarkeringsverktøyet gjør at du kan sammenligne forfatterens versjon av referansen med en versjon som genereres av den XMLen du lager, slik at det blir lett å oppdage forskjellene:</message>
+	<message key="manager.setup.filter.grid.filterDisplayName">Konnektor</message>
+	<message key="manager.setup.filter.grid.filterSettings">Registreringsinformasjon og konnektorinnstillinger</message>
+	<message key="manager.setup.filter.grid.filterTemplateRequired">Velg en av  omformingene fra nedtrekksmenyen.</message>
+	<message key="manager.setup.filter.lookup.grid.description.iSBNdb"><![CDATA[<p>Dette filteret kobler til <a href="http://isbndb.com/" target="_blank">ISBNdb.com</a>s bok- og ISBN-database.</p>
+	<p>En ISBNdb API-nøkkel er nødvendig. For informasjon om hvordan generere en slik nøkkel, se <a href="http://isbndb.com/docs/api/30-keys.html" target="_blank">dokumentasjon på nett</a>.</p>]]></message>
+	<message key="manager.setup.filter.lookup.grid.description.crossRef"><![CDATA[<p>Dette filteret kobler til CrossRefs referansedatabase ved bruk av CrossRefs <a href="http://www.crossref.org/02publishers/openurl_info.html" target="_blank">OpenURL Query Interface</a>.</p>
+	<p>For å benytte dette filteret kan du bruke din system-konto hos CrossRef, eller registrere en gyldig e-postadresse hos CrossRef <a href="http://www.crossref.org/requestaccount/" target="_blank">her</a>.</p>]]></message>
+	<message key="manager.setup.filter.pleaseSelect">Vennligst velg...</message>
+	<message key="plugins.categories.metadata">Programutvidelser for metadata</message>
+</locale>

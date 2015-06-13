@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "../../../../lib/pkp/dtd/helpTopic.dtd">
+<!--
+  * 000023.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Section Editor's Role Index - Archives
+  *
+  * $Id$
+  -->
+
+<topic id="editorial/topic/000023" locale="es_ES" title="Archivos" toc="editorial/toc/000005" key="editorial.sectionEditorsRole.submissions.archives">
+	<section>
+		<![CDATA[<p>Los envíos que están en esta lista ya han pasado el proceso editorial y han sido rechazados o publicados. Esta lista proporciona a los editores/as y al editor/a de sección asignado un acceso completo al historial editorial del envío (resumen, entrega, revisión, edición e historial).</p>]]>	
+	</section>
+</topic>

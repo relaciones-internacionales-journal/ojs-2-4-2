@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE version SYSTEM "../../../lib/pkp/dtd/pluginVersion.dtd">
+
+<!--
+  * version.xml
+  *
+  * Plugin version information.
+  *
+  * $Id: version.xml,v 1.3 2009/07/29 22:59:22 mcrider Exp $
+  -->
+<version>
+	<application>iPhoneGateway</application>
+	<type>plugins.gateways</type>
+	<release>0.9.0.0</release>
+	<date>2010-06-06</date>
+</version>

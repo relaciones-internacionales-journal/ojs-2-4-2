@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE toc SYSTEM "../../../../lib/pkp/dtd/helpToc.dtd">
+<!--
+  * 000000.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Main table of contents for help. 
+  *
+  * $Id$
+  -->
+
+	<toc id="index/toc/000000" locale="es_ES" title="Ayuda de OJS" parent_topic="index/topic/000000">
+	<topic id="intro/topic/000000" title="Introducción a OJS" />
+	<topic id="site/topic/000000" title="Administración del sitio" />
+	<topic id="journal/topic/000000" title="Gestión de la revista" />
+	<topic id="submission/topic/000000" title="Proceso de envío" />
+	<topic id="editorial/topic/000000" title="Proceso editorial" />
+	<topic id="publishing/topic/000000" title="Proceso de publicación" />
+	<topic id="user/topic/000000" title="Sitio web de la revista" />
+</toc>

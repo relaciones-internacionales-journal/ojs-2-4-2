@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE email_texts SYSTEM "../../../../../lib/pkp/dtd/emailTemplateData.dtd">
+<!--
+  * plugins/paymethod/manual/locale/de_DE/emailTemplates.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localized email templates XML file.
+  -->
+<email_texts locale="de_DE">
+	<email_text key="MANUAL_PAYMENT_NOTIFICATION">
+		<subject>Benachrichtigung über manuelle Zahlung</subject>
+		<body>Eine manuelle Zahlung ist für die Zeitschrift {$journalName} und den/die Benutzer/in {$userFullName} (Benutzer/innen-Name "{$userName}") angekündigt worden.
+
+Gezahlt werden soll für "{$itemName}".
+Die Kosten betragen {$itemCost} ({$itemCurrencyCode}).
+
+Diese E-Mail wurde vom OJS-Plug-In Manuelle Gebührenzahlung erzeugt.</body>
+		<description>Diese E-Mail-Vorlage wird genutzt, um eine/n Zeitschriftenverwalter/in darüber zu benachrichtigen, dass eine manuelle Zahlung beantragt worden ist.</description>
+	</email_text>
+</email_texts>

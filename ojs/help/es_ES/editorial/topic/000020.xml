@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "../../../../lib/pkp/dtd/helpTopic.dtd">
+<!--
+  * 000020.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Editor's Role Submission Summary - Submission Metadata
+  *
+  * $Id$
+  -->
+
+<topic id="editorial/topic/000020" locale="es_ES" title="Metadatos del envío" toc="editorial/toc/000003" key="editorial.editorsRole.submissionSummary.submissionMetadata">
+	<section>
+		<![CDATA[<p>El autor/a introduce los metadatos que se usarán para indexar el envío en la publicación. Tanto el editor/a de sección, como el autor/a y el corrector/a de originales pueden editar dichos metadatos durante el proceso editorial.</p>]]>	
+	</section>
+</topic>

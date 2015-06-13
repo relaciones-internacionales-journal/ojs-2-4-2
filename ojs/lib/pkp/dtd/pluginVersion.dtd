@@ -1,0 +1,19 @@
+<!--
+  * pluginVersion.dtd
+  *
+  * Copyright (c) 2000-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * DTD for plugin version data.
+  *
+  -->
+
+<!ELEMENT version (application, type, release, tag?, date, lazy-load?, sitewide?, class?)>
+<!ELEMENT application (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT release (#PCDATA)>
+<!ELEMENT tag (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT lazy-load (#PCDATA)>
+<!ELEMENT sitewide (#PCDATA)>
+<!ELEMENT class (#PCDATA)>

@@ -1,0 +1,112 @@
+/**
+ * @defgroup pkp_controllers_notification
+ */
+
+/**
+ * @file styles/controllers/notification.less
+ *
+ * Copyright (c) 2003-2013 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ * 
+ * @ingroup pkp_controllers_notification
+ *
+ * @brief Styles for pkp_controllers_notification
+ */
+
+.ui-widget.ui-pnotify {
+	width: 320px !important;
+}
+
+div.ui-pnotify-container {
+	background: #c9e3f8;
+	border: 1px solid #559abd;
+}
+
+.ui-pnotify-icon {
+	background-repeat: no-repeat !important;
+	padding-right: 16px;
+	height: 18px;
+}
+
+.notifyError div.ui-pnotify-container,
+.notifyFormError div.ui-pnotify-container {
+	background: #f8dada;
+	border: 1px solid #9a0000;
+}
+
+.notifyError .ui-pnotify-icon,
+.notifyFormError .ui-pnotify-icon {
+	background-image: url(../lib/pkp/templates/images/structure/response_error.png);
+}
+
+.notifySuccess .ui-pnotify-icon {
+	background-image: url(../lib/pkp/templates/images/structure/response_success.png);
+}
+
+.notifyWarning .ui-pnotify-icon {
+	background-image: url(../lib/pkp/templates/images/structure/response_warning.png);
+}
+
+.notifyForbidden .ui-pnotify-icon {
+	background-image: url(../lib/pkp/templates/images/structure/response_forbidden.png);
+}
+
+.notifyInformation .ui-pnotify-icon {
+	background-image: url(../lib/pkp/templates/images/structure/response_info.png);
+}
+
+.notifyHelp .ui-pnotify-icon {
+	background-image: url(../lib/pkp/templates/images/structure/response_help.png);
+}
+
+.pkp_notification {
+ 	margin-top: 10px;
+	text-align: left;
+ 
+ 	.notification_block {
+ 		background-position: 7px 5px !important;
+		background-repeat: no-repeat !important;
+		padding: 5px 20px 5px 30px;
+		min-height: 20px;
+	}
+	
+	p {
+		display: inline;
+		padding: 0px;
+		font-size: 80%;
+	}
+	
+	h4 {
+		display: inline;
+		padding-right: 0px;
+	}
+	
+	.pkp_linkActions {
+		line-height: 24px;
+	}
+
+ 	/* -- Iconography: http://www.jankoatwarpspeed.com/post/2009/09/17/sixpack-status-icons.aspx --*/
+	.notifySuccess {
+		background: #c9e3f8 url(../lib/pkp/templates/images/structure/response_success.png);
+	}
+	
+	.notifyWarning {
+		background: #c9e3f8 url(../lib/pkp/templates/images/structure/response_warning.png);
+	}
+	
+	.notifyError, .notifyFormError {
+		background: #f8dada url(../lib/pkp/templates/images/structure/response_error.png);
+	}
+	
+	.notifyForbidden {
+		background: #f8dada url(../lib/pkp/templates/images/structure/response_forbidden.png);
+	}
+	
+	.notifyInformation {
+		background: #c9e3f8 url(../lib/pkp/templates/images/structure/response_info.png);
+	}
+	
+	.notifyHelp {
+		background: #c9e3f8 url(../lib/pkp/templates/images/structure/response_help.png);
+	}	
+}

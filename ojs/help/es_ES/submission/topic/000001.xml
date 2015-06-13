@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "../../../../lib/pkp/dtd/helpTopic.dtd">
+<!--
+  * 000001.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Author Submission Process - Author Guidelines 
+  *
+  * $Id$
+  -->
+
+<topic id="submission/topic/000001" locale="es_ES" title="Directrices para el autor/a" toc="submission/toc/000000" key="submission.authorGuidelines">
+	<section>
+		<![CDATA[<p>La revista proporciona un conjunto de directrices para el autor/a en "Acerca de la revista" que cubre la normativa bibliográfica y de los formatos empleados. Para aquellos aspectos que no se recogen en los ejemplos de las directrices, los autores/as pueden examinar los artículos ya publicados para comprobar cómo se tratan otros tipos de materiales en la revista.</p>]]>	
+	</section>
+</topic>

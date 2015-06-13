@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd"> <!--
+  * locale.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the es_ES (España) locale.
+  *MODIFICADO OJS V.2.4.2 / 04-2013*
+  * $Id$
+  -->
+
+<locale name="es_ES" full_name="Español (España)">
+	<message key="plugins.block.readingTools.displayName">Bloque de herramientas de lectura</message>
+	<message key="plugins.block.readingTools.description">Este conector muestra un bloque con herramientas de lectura en la barra lateral de Herramientas de lectura.</message>
+	<message key="plugins.block.readingTools.title">Herramientas de lectura</message>
+	<message key="plugins.block.readingTools.aboutTheAuthor">Acerca del autor/a</message>
+	<message key="plugins.block.readingTools.aboutTheAuthors">Acerca de los autores/as</message>
+	<message key="plugins.block.readingTools.articleTools">Herramientas del artículo</message>
+	<message key="plugins.block.readingTools.emailThisArticle">Enviar este artículo por correo electrónico</message>
+	<message key="plugins.block.readingTools.loginRequired">Inicie sesión</message>
+	<message key="plugins.block.readingTools.printThisArticle">Imprimir el resumen</message>
+	<message key="plugins.block.readingTools.postComment">Publicar un comentario</message>
+</locale> 

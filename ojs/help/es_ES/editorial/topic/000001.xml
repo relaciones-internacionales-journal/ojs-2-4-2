@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "../../../../lib/pkp/dtd/helpTopic.dtd">
+<!--
+  * 000001.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Editor's Role Index 
+  *
+  * $Id$
+  -->
+
+<topic id="editorial/topic/000001" locale="es_ES" title="Rol del editor/a" toc="editorial/toc/000000" subtoc="editorial/toc/000001" key="editorial.editorsRole">
+	<section>
+		<![CDATA[<p>El editor/a se encarga de supervisar el proceso editorial, empezando por asignar el editor/a de sección de un envío. Según cuáles sean las políticas de la revista, el editor/a a menudo realiza las funciones de editor/a de sección en lo que se refiere a comprobar los envíos aceptados en la fase de edición del proceso editorial.</p><p>Además, el editor/a puede crear y gestionar números de la revista, así como informar a los usuarios/as sobre la publicación de nuevos números y eventos.</p>]]>	
+	</section>
+</topic>

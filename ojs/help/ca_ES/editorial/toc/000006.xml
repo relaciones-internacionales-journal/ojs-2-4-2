@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE toc SYSTEM "../../../../lib/pkp/dtd/helpToc.dtd"> <!--
+  * 000006.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * table of contents for Editorial Process - Section Editor's Role - Review
+  *
+  * $Id$
+  -->
+
+<toc id="editorial/toc/000006" locale="ca_ES" title="Revisió" parent_topic="editorial/topic/000006">
+	<topic id="editorial/topic/000024" title="Versió de revisió" />
+	<topic id="editorial/topic/000025" title="Avaluació d’experts" />
+	<topic id="editorial/topic/000026" title="Decisió de l’editor/a" />
+
+	<breadcrumb url="editorial/topic/000000" title="Procés editorial" />
+	<breadcrumb url="editorial/topic/000004" title="Rol d'editor/a de secció" />
+	<breadcrumb url="editorial/topic/000006" title="Revisió" />
+</toc> 

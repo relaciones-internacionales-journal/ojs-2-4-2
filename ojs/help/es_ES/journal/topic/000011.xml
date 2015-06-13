@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "../../../../lib/pkp/dtd/helpTopic.dtd">
+<!--
+  * 000011.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Users - All Users 
+  *
+  * $Id$
+  -->
+
+<topic id="journal/topic/000011" locale="es_ES" title="Usuarios/as registrados en esta revista" toc="journal/toc/000002" key="journal.users.allUsers">
+	<section>
+		<![CDATA[<p>Esta lista se incluye a todas las personas que se hayan registrado con esta revista para realizar alguna función. El gestor/a de la revista puede iniciar sesión como cualquier usuario/a registrado/a. Esto puede resultar muy útil para ofrecer al usuario/a asistencia remota ya que permite que el gestor/a de la revista se haga una idea mucho más precisa de lo que puede estar funcionando mal.</p><p>Desde aquí, el gestor/a también puede registrar a usuarios/as existentes en el sistema OJS. Asimismo, puede crear nuevos usuarios/as y sincronizar registros entre distintas revistas.</p>]]>	
+	</section>
+</topic>

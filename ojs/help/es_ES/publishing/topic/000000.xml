@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "../../../../lib/pkp/dtd/helpTopic.dtd">
+<!--
+  * 000000.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Publishing Process Index 
+  *
+  * $Id$
+  -->
+
+<topic id="publishing/topic/000000" locale="es_ES" title="Proceso de publicación" toc="index/toc/000000" subtoc="publishing/toc/000000" key="publishing.index">
+	<section>
+		<![CDATA[<p>El editor/a lleva a término el proceso de publicación mediante la creación de números o volúmenes para la revista, la programación de envíos para esos números, la organización de la tabla de contenidos, hasta llegar a publicar finalmente el número. La revista puede ser publicada en una serie de formatos. El patrón típico es el de reunir envíos en un número que se publica trimestralmente, o mensualmente, o bien dos veces al año. Sin embargo, algunas revistas electrónicas prefieren publicar envíos tan pronto están preparados, como parte de un volumen anual, que empieza con el primer envío del año y concluye al final del año, cuando se inicia un nuevo volumen. Para este texto de ayuda, se emplea el número trimestral, aunque un número consiste en una tabla de contenidos que puede identificarse por (a) número, volumen, año; (b) volumen, año; (c) año; o (d) título. La forma de identificar los números forma parte de la configuración que el gestor/a de la revista habrá proporcionado a ésta.</p>]]>	
+	</section>
+</topic>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "../../../../lib/pkp/dtd/helpTopic.dtd">
+<!--
+  * 000002.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * User Interface - About
+  *
+  * $Id$
+  -->
+
+<topic id="user/topic/000002" locale="es_ES" title="Acerca de" toc="user/toc/000000" key="user.about">
+	<section>
+		<![CDATA[<p>En Acerca de, la revista presenta sus políticas, procedimientos y otro material relevante, con la intención de hacer lo más transparente posible su funcionamiento. Este es el tipo de material al que normalmente se hace referencia como páginas preliminares en las revistas. Aquí es donde los posibles autores/as de la revista pueden aprender sobre el ámbito y el enfoque de la revista, su política de evaluación, cómo dar formato y preparar una publicación, así como la forma de enviar un artículo a la revista.</p>]]>	
+	</section>
+</topic>

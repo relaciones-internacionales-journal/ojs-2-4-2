@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "../../../../lib/pkp/dtd/helpTopic.dtd">
+<!--
+  * 000026.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Section Editor's Role Index - Review - Editor Decision
+  *
+  * $Id$
+  -->
+
+<topic id="editorial/topic/000026" locale="es_ES" title="Decisión del editor/a" toc="editorial/toc/000006" key="editorial.sectionEditorsRole.review.editorDecision">
+	<section>
+		<![CDATA[<p>Una vez se dispone de todas las revisiones de la publicación, el editor/a de sección debe tomar una decisión.</p><p><em>Registrar la decisión</em>. Se elige entre distintas posibilidades: Publicable, Publicable con modificaciones, Reevaluable o No publicable.</p><p>En la sección Correspondencia entre el editor/a y el autor/a, el editor/a de sección debe comunicar al autor/a en qué se basa la decisión tomada, ya que este último/a no tiene acceso a la decisión registrada en el sistema. Además, el editor/a de sección puede cargar una versión de la publicación con sugerencias y comentarios. Finalmente, el editor/a de sección debe ponerse en contacto con el autor/a por correo electrónico por medio del icono Comunicar al autor/a que se muestra bajo Decisión del editor/a. Los comentarios realizados por el revisor/a se pueden importar a este correo electrónico haciendo clic en la opción Importar evaluaciones por pares que se muestra antes del asunto del mensaje. Debe tener en cuenta que no se importan aquellos comentarios que el revisor/a ha configurado sólo para el editor/a.</p><p>El editor/a de sección puede tomar una decisión inicial (Publicable con modificaciones) y, más tarde, cambiar su parecer y aceptar la versión cargada por el autor/a.</p><p>Si el editor/a de sección selecciona Aceptar, el siguiente paso consiste en determinar qué versión del envío (la del editor/a o la del autor/a) pasará a Corrección en la página Edición. Por defecto, la versión del editor/a es la versión que debe pasar a revisión. El editor/a de sección puede introducir los cambios que considere oportunos &mdash; restablecer el nombre del autor/a, por ejemplo &mdash; y cargar esa versión para que que pase a la fase de corrección.</p><p>Si el editor/a de sección selecciona Rechazar, el envío se mueve a la lista Archivos y se muestra con el estado Rechazado.</p><p><em>Reevaluable</em>. El editor/a de sección puede iniciar una segunda ronda de revisión del envío seleccionando la opción Reevaluable. Después, se pone en contacto con el autor/a mediante correo electrónico, ya que éste no tiene acceso a la decisión, y le proporciona un resumen de las tareas que deben realizarse en el documento antes de reevaluarlo. Cuando el autor/a remite una nueva versión para revisar, ésta se muestra bajo Versión del autor/a y el editor/a de sección la designa para que sea reenviada. Entonces se convierte en la versión para revisar de la 2ª ronda, por lo que habría que comprobar el anonimato y, si es necesario, subirla de nuevo en Versión para revisar. Los revisores/as de la 1ª ronda aún se mantienen vigentes, aunque sus revisiones y recomendaciones se retiran y se sitúan en "Cambios, cancelaciones y rondas previas del envío". El editor/a de sección puede activar la petición de cada revisor/a de la 1ª ronda por medio del icono de correo electrónico debajo de Solicitud o bien puede seleccionar Quitar revisor/a y elegir a otro para la 2ª ronda. La correspondencia entre el editor/a y el autor/a de la 1ª ronda también se muestra en "Cambios, cancelaciones y rondas previas" del envío, donde el editor/a de sección puede revisarla si lo considera oportuno.</p>]]>	
+	</section>
+</topic>

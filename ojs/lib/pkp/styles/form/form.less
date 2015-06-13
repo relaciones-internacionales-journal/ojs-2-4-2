@@ -1,0 +1,324 @@
+/**
+ * @defgroup pkp_form
+ */
+
+/**
+ * @file styles/form.less
+ *
+ * Copyright (c) 2003-2013 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * @ingroup pkp_form
+ *
+ * @brief Form Builder Vocabulary classes
+ */
+
+/**
+ * The following styles are moved outside pkp_form until all forms are
+ * refactored/made compatible with the FBV styles.
+ */
+.error {
+	color: #900;
+}
+
+span.pkp_form_error {
+	color: #900;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.pkp_form_error_list a {
+	color: #900;
+}
+
+/**
+ * FBV styles
+ */
+.pkp_form {
+	.pkp_formArea {
+		p {
+			margin: 0px;
+			padding: 0px;
+		}
+	}
+
+	.debug div, .debug label {
+		border: 1px solid orange;
+	}
+
+	fieldset {
+		margin: 10px 5px;
+	}
+
+	fieldset.border {
+		border: 1px solid #CCC;
+		padding: 5px;
+	}
+
+	fieldset.inline {
+		margin: 0px 0px;
+	}
+
+	legend {
+		font-size: 110%;
+		padding: 10px 0 10px 0;
+	}
+
+	div.section {
+		clear: left;
+		margin-bottom: 10px;
+		overflow: hidden;
+	}
+
+	label {
+		display: block;
+		font-weight: bold;
+		padding: 3px 0 3px 0;
+	}
+
+
+ 	span.pkp_form_success {
+ 		color: #090;
+ 		font-weight: bold;
+ 		font-size: 1em;
+ 	}
+
+	span label.sub_label {
+		font-size: 80%;
+		color: #999;
+		font-weight: normal;
+		padding: 2px 0 4px 0;
+	}
+
+	input, textarea, select {
+
+		:focus {
+			outline: none;
+		}
+
+		font-size: 90%;
+		width: 99%;
+		border: 1px solid #ccc;
+		padding: 2px;
+		margin-top: 4px;
+	}
+
+	select {
+		padding:3px;
+		width: 100%;
+	}
+
+	textarea {
+		height: 10em;
+	}
+
+	.short {
+		height: 6em;
+	}
+
+	.medium {
+		height: 12em;
+	}
+
+	.tall {
+		height: 18em;
+	}
+
+	.req {
+		font-weight: bold;
+		color: #cc0000;
+		padding-left: 3px;
+	}
+
+	.inline {
+		float: left;
+		clear: none !important;
+		padding-right: 2%;
+		margin-bottom: 0;
+	}
+
+	ul.checkbox_and_radiobutton
+	{
+		margin-bottom: 0;
+		padding-bottom: 0;
+		padding-left: 0;
+	}
+
+	.checkbox_and_radiobutton li {
+		padding-right: 35px;
+		float: left;
+		display: inline;
+		list-style: none;
+	}
+
+	.checkbox_and_radiobutton input {
+		display: block;
+		margin: 4px 0 0 0;
+		padding: 0;
+		width: 13px;
+		height: 13px;
+	}
+
+	.checkbox_and_radiobutton li label {
+		line-height: 150%;
+		margin: -17px 0 0 20px;
+		padding: 0 0 5px 0;
+		font-weight: normal;
+	}
+
+	ul.checkbox_and_radiobutton:after {
+		content: ".";
+		display: block;
+		clear: both;
+		visibility: hidden;
+		height: 0;
+		overflow: hidden;
+	}
+
+	.localization_popover_container {
+
+		input, textarea, select {
+		}
+//
+//		:after {
+//			content: "";
+//			width: 24px;
+//			height: 24px;
+//			position: absolute;
+//			background: url(../lib/pkp/templates/images/structure/grid_icon_sprite.png) no-repeat;
+//			background-position: -264px -2px;
+//	 	}
+	}
+
+	.localization_popover_container_focus {
+		margin-top: -2px;
+		background-color: #eee;
+		display: block;
+		padding: 2px 5px 0px 5px;
+		position: relative;
+
+//		:after {
+//			content: "";
+//			width: 24px;
+//			height: 24px;
+//			position: absolute;
+//			background: url(../lib/pkp/templates/images/structure/grid_icon_sprite.png) no-repeat;
+//			background-position: -264px -26px;
+//	 	}
+	}
+
+
+	.localization_popover {
+		background-color: #eee;
+		margin-left: -5px;
+		padding:10px 5px 5px 5px;
+		position: absolute;
+		z-index: 15000;
+		display: none;
+	}
+
+	label.locale {
+		font-size: 1px;
+		text-indent: -9999px;
+	}
+
+	.localizable
+	{
+		background-color: #fff !important;
+		background-repeat: no-repeat;
+		background: url(../lib/pkp/templates/images/structure/icon_globe.png) no-repeat;
+		background-position: 100% 50%;
+	}
+
+	input.spinner {
+		background-color: #ffffff !important;
+		background-repeat:no-repeat;
+		background:url(../lib/pkp/templates/images/throbber.gif) no-repeat;
+		background-position:100% 50%;
+	}
+
+	textarea.localizable {
+		background-position: 100% 0;
+	}
+
+	.flag {
+		background-color: #fff !important;
+		background-repeat: no-repeat;
+		background-position: 100% 50%;
+	}
+
+	.flag_te_ST {
+		background-image: url(../lib/pkp/templates/images/structure/flags/te_ST.png) !important;
+	}
+
+	.pkp_form_file_input_container {
+		height: 30px;
+		width: 350px;
+		position:relative;
+		float:left;
+
+		.pkp_form_fakeFile {
+			left:0;
+			line-height:90%;
+			margin:0;
+			padding:0;
+			position:absolute;
+			top:0;
+			width:350px;
+			z-index:1;
+		}
+
+		.pkp_form_fakeInput {
+			margin-bottom:5px;
+			margin-left:0;
+			height:15px;
+			padding-left:3px;
+			padding-top:1px;
+			width:241px;
+		}
+
+		.pkp_form_fakeButton {
+			line-height:90%;
+		}
+
+		.pkp_form_uploadFile {
+			line-height: 90%;
+			height: 29px;
+		}
+	}
+
+	input.pkp_form_upload_field {
+		padding: 3px;
+		margin: 0;
+		height: 30px;
+		width: 350px;
+		position: relative;
+		z-index: 2;
+		text-align:right;
+		-moz-opacity:0;
+		filter:alpha(opacity=0);
+		opacity: 0;
+	}
+	.pkp_form_hidden {
+		display:none !important;
+	}
+
+	.formButtons {
+		line-height: 30px;
+		margin: 0 0 15px;
+		overflow: hidden;
+		padding: 10px 20px;
+		vertical-align: middle;
+
+		.submitFormButton {
+			float: right;
+		}
+		.resetFormButton, .cancelFormButton {
+			float: left
+		}
+		div.clear {
+			clear: both;
+		}
+	}
+
+}

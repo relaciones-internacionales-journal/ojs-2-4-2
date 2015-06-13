@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale/eu_ES/default.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings.
+  *
+  -->
+ 
+<locale name="eu_ES" full_name="Euskara">
+	<message key="default.journalSettings.purchaseIssueFee">Erosi ale bat</message>
+	<message key="default.journalSettings.purchaseIssueFeeDescription">Kuota hau ordaintzeak ale hau bistaratzen, kargatzen eta inprimatzen utziko dizu.</message>
+</locale>

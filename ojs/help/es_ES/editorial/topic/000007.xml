@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "../../../../lib/pkp/dtd/helpTopic.dtd">
+<!--
+  * 000007.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Section Editor's Role Index - Editing 
+  *
+  * $Id$
+  -->
+
+<topic id="editorial/topic/000007" locale="es_ES" title="Edición" toc="editorial/toc/000004" subtoc="editorial/toc/000007" key="editorial.sectionEditorsRole.editing">
+	<section>
+		<![CDATA[<p>El editor/a de sección supervisa la corrección, la maquetación y la corrección de pruebas al seleccionar y asignar los miembros del equipo editorial para hacer un seguimiento del envío en cada fase y asegurarse de que cumple los plazos. El proceso comienza cuando el editor/a de sección selecciona al corrector/a de originales y solicita la corrección del envío. El editor/a de sección puede elegir al maquetista y al corrector/a de pruebas al mismo tiempo (dependiendo de cuántos roles editoriales se utilicen en la revista) o esperar a que termine la fase anterior. Para sustituir a los miembros seleccionados, el editor/a de sección sólo tiene que hacer clic en {translate key="common.select"} otra vez para designar al nuevo integrante que reemplazará al anterior. La fase de edición termina cuando el envío concluye la fase de corrección de pruebas, momento en el que el editor/a de sección planifica su publicación.</p><p><em>Envíos en maquetación que necesitan correcciones adicionales</em>. El editor/a puede considerar que la versión maquetada necesita algún tipo de corrección adicional. Entonces debe descargar la versión maquetada y enviarla por correo electrónico al corrector/a de originales (quien podría querer contactar con el autor/a). Cuando se ha terminado la corrección y se ha devuelto al editor/a, éste puede cargar el archivo en el apartado Versión maquetada.</p><p><em>Cambiar las galeradas después de planificar el envío</em>. Una vez se ha planificado el envío, la página de Edición, junto con las páginas asociadas Resumen, Revisión e Historial, se envían al apartado Archivos. El editor/a puede pedir al maquetista, quien puede acceder a los archivos a través del apartado Archivos, que cambie las galeradas y, a continuación, las vuelva a cargar. Este proceso puede realizarse después de publicar el envío. Las últimas galeradas cargadas aparecerán como la versión publicada, aunque es preciso tener cuidado cuando se cambian las galeradas de este modo, ya que se debe preservar la integridad del proceso de publicación de la revista y el editor/a podría querer adjuntar una nota mencionando los cambios realizados en la publicación.</p><p>Para más información sobre el proceso de corrección, véase {help_topic key="editorial.sectionEditorsRole.editing.copyediting" text="Corrección de originales"}.</p><p>Para más información sobre el proceso de maquetación, véase {help_topic key="editorial.sectionEditorsRole.editing.layout" text="Maquetación"}.</p><p>Para más información sobre la corrección de pruebas y la planificación, véase {help_topic key="editorial.sectionEditorsRole.editing.proofreading" text="Corrección de pruebas"}.</p>]]>	
+	</section>
+</topic>

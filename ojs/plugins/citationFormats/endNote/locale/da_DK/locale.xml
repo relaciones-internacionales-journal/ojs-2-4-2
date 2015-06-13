@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/citationFormats/endNote/locale/da_DK/locale.xml
+  *
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for this citation plugin in da_DK.
+  *
+  -->
+ 
+<locale name="da_DK" full_name="Dutch">
+	<message key="plugins.citationFormats.endNote.displayName">EndNote citeringsformat plugin</message>
+	<message key="plugins.citationFormats.endNote.citationFormatName">EndNote - EndNote format (Macintosh  Windows)</message>
+	<message key="plugins.citationFormats.endNote.description">Dette plugin implementerer EndNote citeringsformatet.</message>
+</locale>
