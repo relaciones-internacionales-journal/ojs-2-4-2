@@ -32,7 +32,7 @@ disable_path_info = On<br>
 restful_urls = Off<br>
 repository_id = oai.relacionesinternacionales.info
 
-# Files modified in current OJS installation
+# Original files modified
 - ojs\lib\pkp\classes\oai\OAI.inc.php 
 - ojs\lib\pkp\classes\oai\OAIStruct.inc.php 
 - ojs\lib\pkp\locale\en_US\common.xml 
