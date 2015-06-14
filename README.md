@@ -35,6 +35,7 @@ repository_id = oai.relacionesinternacionales.info
 # Original files modified
 - ojs\lib\pkp\classes\oai\OAI.inc.php 
 - ojs\lib\pkp\classes\oai\OAIStruct.inc.php 
+- ojs\lib\pkp\classes\oai\OAIUtils.inc.php
 - ojs\lib\pkp\locale\en_US\common.xml 
 - ojs\lib\pkp\locale\en_US\reader.xml 
 - ojs\lib\pkp\locale\en_US\submission.xml 
