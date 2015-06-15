@@ -11,12 +11,13 @@ This is our current published Open Journal System installation. It's a fully mod
   - Google structured data markups added.
   - Lot's of weird .htaccess rules due to our hosting configuration, outside our control. But they do work.
 
-- Third-party code/libraries/framework added:
+- Third-party code/libraries/framework/etc. added:
   - Jasny extension of Bootstrap 2.3.1. Source: https://github.com/jasny/bootstrap
   - PHP & JS Style switcher.  Source: http://code.tutsplus.com/tutorials/jquery-style-switcher--net-532
   - Google Fonts: 
-    - Roboto: Source:  http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300
+    - Roboto Condensed. Source:  http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300
     - Open Sans. Source: http://fonts.googleapis.com/css?family=Open+Sans:300,600,700
+    - Crimson Text. Source: http://fonts.googleapis.com/css?family=Crimson+Text:400,700,600
   - JS Circular Content Carousel. Source: http://tympanus.net/codrops/2011/08/16/circular-content-carousel/
   - Minified CSS & JS via PHP. Source: https://github.com/mrclay/minify
 
