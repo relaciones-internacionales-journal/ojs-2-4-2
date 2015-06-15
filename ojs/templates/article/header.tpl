@@ -25,7 +25,7 @@
 	{include file="article/googlescholar.tpl"}
 	{call_hook name="Templates::Article::Header::Metadata"}
 
-	<link rel="publisher" href="https://plus.google.com/114579961052022494235">
+	<link rel="publisher" href="https://plus.google.com">
 
 	{*<link rel="stylesheet" href="{$baseUrl}/lib/pkp/styles/pkp.css" type="text/css" />
 	<link rel="stylesheet" href="{$baseUrl}/lib/pkp/styles/common.css" type="text/css" />
@@ -114,7 +114,7 @@
 	<!-- Google Analytics BEGIN -->
 	<script type="text/javascript">
 	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-8311095-1']);
+	  _gaq.push(['_setAccount', '']);
 	  _gaq.push(['_trackPageview']);
 	  	  (function() {
 		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
